@@ -14,6 +14,8 @@ Pagina owns individual page types such as homepages, pricing pages, landing page
 
 Pagina is not a fixed template library or a whole-site generator.
 
+Pagina builds new pages only. Existing-page audits, optimization, patches, and reconstruction are outside its scope.
+
 ## Install
 
 ```bash
@@ -34,11 +36,15 @@ skills/page-builder/
   SKILL.md
   references/
 catalog/pages.json
+catalog/taxonomy.json
+catalog/component-page-map.json
 schemas/page-reference.schema.json
 scripts/validate.mjs
 ```
 
-Page references will be added only after their ownership and overlap with existing page guidance have been reviewed.
+The initial catalog covers 11 public-web and web-app page types. Additional references are added only after their ownership and overlap with existing guidance have been reviewed.
+
+`catalog/pages.json` owns page-to-Bricks recommendations. `catalog/component-page-map.json` is generated from that source and supports reverse component-to-page discovery without a second manually maintained mapping.
 
 ## Validate
 

@@ -1,5 +1,235 @@
 {
   "$schema": "../schemas/page-reference.schema.json",
-  "version": "0.1.0",
-  "pages": []
+  "version": "0.2.0",
+  "pages": [
+    {
+      "id": "homepage",
+      "name": "Homepage",
+      "family": "public-entry",
+      "surfaces": ["public-web"],
+      "product_contexts": [
+        { "archetype": "saas", "relation": "core" },
+        { "archetype": "ai-tool", "relation": "core" },
+        { "archetype": "ecommerce", "relation": "core" },
+        { "archetype": "publication", "relation": "core" },
+        { "archetype": "portfolio", "relation": "core" }
+      ],
+      "component_recommendations": {
+        "core": ["navigation-menu", "footer"],
+        "common": ["hero", "cta", "trust-signals"],
+        "conditional": ["task-input", "testimonials", "faq-section", "newsletter-signup"],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/homepage.md"
+    },
+    {
+      "id": "pricing",
+      "name": "Pricing Page",
+      "family": "commercial",
+      "surfaces": ["public-web"],
+      "product_contexts": [
+        { "archetype": "saas", "relation": "common" },
+        { "archetype": "ai-tool", "relation": "common" },
+        { "archetype": "developer-tool", "relation": "common" },
+        { "archetype": "professional-services", "relation": "conditional" },
+        { "archetype": "ecommerce", "relation": "discouraged" }
+      ],
+      "component_recommendations": {
+        "core": ["comparison-table", "cta"],
+        "common": ["faq-section", "trust-signals"],
+        "conditional": ["tabs-accordion", "testimonials", "top-banner"],
+        "discouraged": ["carousel"]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/pricing.md"
+    },
+    {
+      "id": "landing",
+      "name": "Landing Page",
+      "family": "campaign",
+      "surfaces": ["public-web"],
+      "product_contexts": [
+        { "archetype": "saas", "relation": "common" },
+        { "archetype": "ai-tool", "relation": "common" },
+        { "archetype": "ecommerce", "relation": "common" },
+        { "archetype": "professional-services", "relation": "common" },
+        { "archetype": "portfolio", "relation": "conditional" }
+      ],
+      "component_recommendations": {
+        "core": ["hero", "cta"],
+        "common": ["trust-signals", "testimonials"],
+        "conditional": ["task-input", "comparison-table", "faq-section", "newsletter-signup"],
+        "discouraged": ["carousel"]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/landing.md"
+    },
+    {
+      "id": "blog-index",
+      "name": "Blog Index",
+      "family": "publishing",
+      "surfaces": ["public-web"],
+      "product_contexts": [
+        { "archetype": "publication", "relation": "core" },
+        { "archetype": "news-media", "relation": "core" },
+        { "archetype": "saas", "relation": "common" },
+        { "archetype": "creator-business", "relation": "common" }
+      ],
+      "component_recommendations": {
+        "core": ["blog-index"],
+        "common": ["card", "grid"],
+        "conditional": ["newsletter-signup", "navigation-menu", "top-banner"],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/blog-index.md"
+    },
+    {
+      "id": "article",
+      "name": "Article Page",
+      "family": "publishing",
+      "surfaces": ["public-web"],
+      "product_contexts": [
+        { "archetype": "publication", "relation": "core" },
+        { "archetype": "news-media", "relation": "core" },
+        { "archetype": "saas", "relation": "common" },
+        { "archetype": "creator-business", "relation": "common" }
+      ],
+      "component_recommendations": {
+        "core": ["article-layout"],
+        "common": ["breadcrumb", "table-of-contents", "author-bio"],
+        "conditional": ["social-share", "newsletter-signup", "faq-section"],
+        "discouraged": ["carousel"]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/article.md"
+    },
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "family": "application-overview",
+      "surfaces": ["web-app"],
+      "product_contexts": [
+        { "archetype": "saas", "relation": "common" },
+        { "archetype": "analytics-platform", "relation": "common" },
+        { "archetype": "ecommerce", "relation": "common" },
+        { "archetype": "operations-platform", "relation": "common" },
+        { "archetype": "portfolio", "relation": "discouraged" }
+      ],
+      "component_recommendations": {
+        "core": ["grid"],
+        "common": ["card", "sidebar", "navigation-menu"],
+        "conditional": ["top-banner", "list", "comparison-table"],
+        "discouraged": ["hero", "carousel"]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/dashboard.md"
+    },
+    {
+      "id": "collection",
+      "name": "Collection Page",
+      "family": "application-objects",
+      "surfaces": ["web-app"],
+      "product_contexts": [
+        { "archetype": "saas", "relation": "common" },
+        { "archetype": "crm", "relation": "core" },
+        { "archetype": "content-management", "relation": "core" },
+        { "archetype": "ecommerce", "relation": "core" },
+        { "archetype": "marketplace", "relation": "core" }
+      ],
+      "component_recommendations": {
+        "core": ["list"],
+        "common": ["grid", "card", "sidebar"],
+        "conditional": ["tabs-accordion", "top-banner"],
+        "discouraged": ["hero"]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/collection.md"
+    },
+    {
+      "id": "detail",
+      "name": "Detail Page",
+      "family": "application-objects",
+      "surfaces": ["web-app"],
+      "product_contexts": [
+        { "archetype": "saas", "relation": "common" },
+        { "archetype": "crm", "relation": "core" },
+        { "archetype": "content-management", "relation": "common" },
+        { "archetype": "ecommerce", "relation": "core" },
+        { "archetype": "operations-platform", "relation": "core" }
+      ],
+      "component_recommendations": {
+        "core": ["breadcrumb"],
+        "common": ["tabs-accordion", "sidebar", "card"],
+        "conditional": ["modal", "top-banner", "list"],
+        "discouraged": ["hero", "carousel"]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/detail.md"
+    },
+    {
+      "id": "create-edit",
+      "name": "Create and Edit Page",
+      "family": "application-authoring",
+      "surfaces": ["web-app"],
+      "product_contexts": [
+        { "archetype": "saas", "relation": "common" },
+        { "archetype": "content-management", "relation": "core" },
+        { "archetype": "crm", "relation": "common" },
+        { "archetype": "ecommerce", "relation": "common" },
+        { "archetype": "creator-business", "relation": "conditional" }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": ["sidebar", "tabs-accordion"],
+        "conditional": ["modal", "top-banner", "cms-editor-workspace"],
+        "discouraged": ["hero", "carousel"]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/create-edit.md"
+    },
+    {
+      "id": "settings",
+      "name": "Settings Page",
+      "family": "application-configuration",
+      "surfaces": ["web-app"],
+      "product_contexts": [
+        { "archetype": "saas", "relation": "common" },
+        { "archetype": "developer-tool", "relation": "common" },
+        { "archetype": "collaboration-tool", "relation": "common" },
+        { "archetype": "analytics-platform", "relation": "common" },
+        { "archetype": "portfolio", "relation": "conditional" }
+      ],
+      "component_recommendations": {
+        "core": ["navigation-menu"],
+        "common": ["sidebar", "tabs-accordion"],
+        "conditional": ["modal", "top-banner"],
+        "discouraged": ["hero", "carousel", "testimonials"]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/settings.md"
+    },
+    {
+      "id": "404",
+      "name": "404 Page",
+      "family": "system-state",
+      "surfaces": ["public-web", "web-app"],
+      "product_contexts": [
+        { "archetype": "saas", "relation": "common" },
+        { "archetype": "ecommerce", "relation": "common" },
+        { "archetype": "publication", "relation": "common" },
+        { "archetype": "portfolio", "relation": "common" },
+        { "archetype": "content-management", "relation": "common" }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": ["navigation-menu", "cta"],
+        "conditional": ["task-input", "card", "footer"],
+        "discouraged": ["modal", "carousel", "testimonials"]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/404.md"
+    }
+  ]
 }

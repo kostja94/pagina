@@ -29,6 +29,8 @@ Read [references/workflow.md](references/workflow.md) for construction and [refe
 
 When a matching page reference exists in [../../catalog/pages.json](../../catalog/pages.json), load only that reference. If the page type is absent, use the shared workflow and do not create a permanent catalog entry unless repository maintenance is part of the task.
 
+Use the page's product contexts to adapt priorities without inventing a new page identity. Component recommendations reference stable IDs in [Bricks](https://github.com/kostja94/bricks). Reuse components already present in the target project first; use Bricks guidance only when a required component must be created. Pagina remains usable when Bricks is not installed.
+
 ## Build
 
 1. Define the page contract: purpose, audience, primary task, required truth, inputs, outputs, and exclusions.
@@ -40,6 +42,7 @@ When a matching page reference exists in [../../catalog/pages.json](../../catalo
 ## Boundaries
 
 - Pagina owns one page at a time, including its content structure and component composition.
+- Build only new pages. Do not use this skill to audit, optimize, patch, or reconstruct an existing page.
 - Page references express durable decisions and acceptance criteria, not fixed visual templates.
 - Reusable component behavior belongs in the target design system or a component reference such as Bricks.
 - Site maps, global navigation, URL architecture, cross-page journeys, and complete website planning remain outside this skill.

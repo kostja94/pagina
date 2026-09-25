@@ -4,6 +4,7 @@
   "private": true,
   "description": "Page intelligence for AI agents.",
   "scripts": {
+    "catalog:generate": "node scripts/generate-component-map.mjs",
     "test": "node scripts/validate.mjs"
   },
   "license": "MIT"

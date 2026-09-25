@@ -1,0 +1,310 @@
+{
+  "generated_from": "pages.json#component_recommendations",
+  "version": "0.2.0",
+  "components": [
+    {
+      "component": "article-layout",
+      "core": [
+        "article"
+      ],
+      "common": [],
+      "conditional": [],
+      "discouraged": []
+    },
+    {
+      "component": "author-bio",
+      "core": [],
+      "common": [
+        "article"
+      ],
+      "conditional": [],
+      "discouraged": []
+    },
+    {
+      "component": "blog-index",
+      "core": [
+        "blog-index"
+      ],
+      "common": [],
+      "conditional": [],
+      "discouraged": []
+    },
+    {
+      "component": "breadcrumb",
+      "core": [
+        "detail"
+      ],
+      "common": [
+        "article"
+      ],
+      "conditional": [],
+      "discouraged": []
+    },
+    {
+      "component": "card",
+      "core": [],
+      "common": [
+        "blog-index",
+        "collection",
+        "dashboard",
+        "detail"
+      ],
+      "conditional": [
+        "404"
+      ],
+      "discouraged": []
+    },
+    {
+      "component": "carousel",
+      "core": [],
+      "common": [],
+      "conditional": [],
+      "discouraged": [
+        "404",
+        "article",
+        "create-edit",
+        "dashboard",
+        "detail",
+        "landing",
+        "pricing",
+        "settings"
+      ]
+    },
+    {
+      "component": "cms-editor-workspace",
+      "core": [],
+      "common": [],
+      "conditional": [
+        "create-edit"
+      ],
+      "discouraged": []
+    },
+    {
+      "component": "comparison-table",
+      "core": [
+        "pricing"
+      ],
+      "common": [],
+      "conditional": [
+        "dashboard",
+        "landing"
+      ],
+      "discouraged": []
+    },
+    {
+      "component": "cta",
+      "core": [
+        "landing",
+        "pricing"
+      ],
+      "common": [
+        "404",
+        "homepage"
+      ],
+      "conditional": [],
+      "discouraged": []
+    },
+    {
+      "component": "faq-section",
+      "core": [],
+      "common": [
+        "pricing"
+      ],
+      "conditional": [
+        "article",
+        "homepage",
+        "landing"
+      ],
+      "discouraged": []
+    },
+    {
+      "component": "footer",
+      "core": [
+        "homepage"
+      ],
+      "common": [],
+      "conditional": [
+        "404"
+      ],
+      "discouraged": []
+    },
+    {
+      "component": "grid",
+      "core": [
+        "dashboard"
+      ],
+      "common": [
+        "blog-index",
+        "collection"
+      ],
+      "conditional": [],
+      "discouraged": []
+    },
+    {
+      "component": "hero",
+      "core": [
+        "landing"
+      ],
+      "common": [
+        "homepage"
+      ],
+      "conditional": [],
+      "discouraged": [
+        "collection",
+        "create-edit",
+        "dashboard",
+        "detail",
+        "settings"
+      ]
+    },
+    {
+      "component": "list",
+      "core": [
+        "collection"
+      ],
+      "common": [],
+      "conditional": [
+        "dashboard",
+        "detail"
+      ],
+      "discouraged": []
+    },
+    {
+      "component": "modal",
+      "core": [],
+      "common": [],
+      "conditional": [
+        "create-edit",
+        "detail",
+        "settings"
+      ],
+      "discouraged": [
+        "404"
+      ]
+    },
+    {
+      "component": "navigation-menu",
+      "core": [
+        "homepage",
+        "settings"
+      ],
+      "common": [
+        "404",
+        "dashboard"
+      ],
+      "conditional": [
+        "blog-index"
+      ],
+      "discouraged": []
+    },
+    {
+      "component": "newsletter-signup",
+      "core": [],
+      "common": [],
+      "conditional": [
+        "article",
+        "blog-index",
+        "homepage",
+        "landing"
+      ],
+      "discouraged": []
+    },
+    {
+      "component": "sidebar",
+      "core": [],
+      "common": [
+        "collection",
+        "create-edit",
+        "dashboard",
+        "detail",
+        "settings"
+      ],
+      "conditional": [],
+      "discouraged": []
+    },
+    {
+      "component": "social-share",
+      "core": [],
+      "common": [],
+      "conditional": [
+        "article"
+      ],
+      "discouraged": []
+    },
+    {
+      "component": "table-of-contents",
+      "core": [],
+      "common": [
+        "article"
+      ],
+      "conditional": [],
+      "discouraged": []
+    },
+    {
+      "component": "tabs-accordion",
+      "core": [],
+      "common": [
+        "create-edit",
+        "detail",
+        "settings"
+      ],
+      "conditional": [
+        "collection",
+        "pricing"
+      ],
+      "discouraged": []
+    },
+    {
+      "component": "task-input",
+      "core": [],
+      "common": [],
+      "conditional": [
+        "404",
+        "homepage",
+        "landing"
+      ],
+      "discouraged": []
+    },
+    {
+      "component": "testimonials",
+      "core": [],
+      "common": [
+        "landing"
+      ],
+      "conditional": [
+        "homepage",
+        "pricing"
+      ],
+      "discouraged": [
+        "404",
+        "settings"
+      ]
+    },
+    {
+      "component": "top-banner",
+      "core": [],
+      "common": [],
+      "conditional": [
+        "blog-index",
+        "collection",
+        "create-edit",
+        "dashboard",
+        "detail",
+        "pricing",
+        "settings"
+      ],
+      "discouraged": []
+    },
+    {
+      "component": "trust-signals",
+      "core": [],
+      "common": [
+        "homepage",
+        "landing",
+        "pricing"
+      ],
+      "conditional": [],
+      "discouraged": []
+    }
+  ]
+}
