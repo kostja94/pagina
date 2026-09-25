@@ -1,0 +1,4 @@
+interface:
+  display_name: "Page Builder"
+  short_description: "Build product-native individual pages"
+  default_prompt: "Build this page inside the existing product, preserving its design system, content truth, routes, and implementation conventions."

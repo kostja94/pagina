@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pagina.dev/schemas/page-reference.schema.json",
+  "title": "Pagina Page Catalog",
+  "type": "object",
+  "required": ["version", "pages"],
+  "properties": {
+    "version": { "type": "string" },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "family", "surfaces", "status", "reference"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "name": { "type": "string", "minLength": 1 },
+          "family": { "type": "string", "minLength": 1 },
+          "surfaces": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" }
+          },
+          "status": { "enum": ["planned", "draft", "available"] },
+          "reference": { "type": "string", "pattern": "\\.md$" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
