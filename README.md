@@ -6,7 +6,7 @@ Pagina helps coding agents plan, build, integrate, and verify individual pages i
 
 ## Scope
 
-Pagina owns individual page types such as homepages, pricing pages, landing pages, article pages, dashboards, settings pages, and error pages.
+Pagina owns individual page types such as homepages, product and feature pages, pricing pages, tools, documentation pages, campaigns, articles, dashboards, settings pages, and error pages.
 
 - [Bricks](https://github.com/kostja94/bricks) owns reusable interface components, sections, and interaction patterns.
 - Pagina decides how one page serves its task and composes relevant interface objects.
@@ -42,7 +42,7 @@ schemas/page-reference.schema.json
 scripts/validate.mjs
 ```
 
-The catalog currently covers 47 public-web and web-app page identities. Related Index, Detail, interface, and program variants may share one family reference until their guidance becomes independently substantial.
+The catalog currently covers 76 public-web and web-app page identities. Related Hub, Index, Detail, interface, and program variants may share one family reference until their guidance becomes independently substantial.
 
 `catalog/pages.json` owns page-to-Bricks recommendations. `catalog/component-page-map.json` is generated from that source and supports reverse component-to-page discovery without a second manually maintained mapping.
 

@@ -1,6 +1,6 @@
 ---
 name: page-builder
-description: Build a new individual page inside an existing product or application. Use for page types such as home, landing, pricing, article, dashboard, settings, and error pages when the task includes page purpose, structure, content, components, implementation, and verification. Do not use for whole-site information architecture, site-wide navigation planning, or isolated component construction.
+description: Build a new individual page inside an existing product or application. Use for page types such as home, product, feature, landing, pricing, tool, documentation, campaign, article, dashboard, settings, and error pages when the task includes page purpose, structure, content, components, implementation, and verification. Do not use for whole-site information architecture, site-wide navigation planning, or isolated component construction.
 metadata:
   version: 0.2.0
 ---

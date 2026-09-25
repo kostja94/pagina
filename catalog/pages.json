@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/page-reference.schema.json",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "pages": [
     {
       "id": "homepage",
@@ -2068,6 +2068,1213 @@
       },
       "status": "available",
       "reference": "../skills/page-builder/references/pages/case-study.md"
+    },
+    {
+      "id": "product-hub",
+      "name": "Product Hub",
+      "family": "product-capability",
+      "mode": "hub",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu"
+        ],
+        "common": [
+          "hero",
+          "grid",
+          "card"
+        ],
+        "conditional": [
+          "task-input",
+          "comparison-table",
+          "cta"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/product-capability.md"
+    },
+    {
+      "id": "product-detail",
+      "name": "Product Detail",
+      "family": "product-capability",
+      "mode": "detail",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "hero",
+          "howto-section",
+          "cta"
+        ],
+        "conditional": [
+          "tabs-accordion",
+          "comparison-table",
+          "trust-signals",
+          "faq-section"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/product-capability.md"
+    },
+    {
+      "id": "feature-hub",
+      "name": "Feature Hub",
+      "family": "product-capability",
+      "mode": "hub",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu"
+        ],
+        "common": [
+          "hero",
+          "grid",
+          "card"
+        ],
+        "conditional": [
+          "task-input",
+          "comparison-table",
+          "cta"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/product-capability.md"
+    },
+    {
+      "id": "feature-detail",
+      "name": "Feature Detail",
+      "family": "product-capability",
+      "mode": "detail",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "hero",
+          "howto-section",
+          "cta"
+        ],
+        "conditional": [
+          "tabs-accordion",
+          "comparison-table",
+          "trust-signals",
+          "faq-section"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/product-capability.md"
+    },
+    {
+      "id": "service-hub",
+      "name": "Service Hub",
+      "family": "service-solution",
+      "mode": "hub",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "professional-services",
+          "relation": "core"
+        },
+        {
+          "archetype": "corporate",
+          "relation": "common"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "hero",
+          "grid",
+          "card",
+          "cta"
+        ],
+        "conditional": [
+          "testimonials",
+          "trust-signals"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/service-solution.md"
+    },
+    {
+      "id": "service-detail",
+      "name": "Service Detail",
+      "family": "service-solution",
+      "mode": "detail",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "professional-services",
+          "relation": "core"
+        },
+        {
+          "archetype": "corporate",
+          "relation": "common"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "hero",
+          "howto-section",
+          "cta"
+        ],
+        "conditional": [
+          "testimonials",
+          "trust-signals",
+          "faq-section"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/service-solution.md"
+    },
+    {
+      "id": "solution-hub",
+      "name": "Solution Hub",
+      "family": "service-solution",
+      "mode": "hub",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "hero",
+          "grid",
+          "card",
+          "cta"
+        ],
+        "conditional": [
+          "testimonials",
+          "trust-signals"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/service-solution.md"
+    },
+    {
+      "id": "solution-detail",
+      "name": "Solution Detail",
+      "family": "service-solution",
+      "mode": "detail",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "hero",
+          "howto-section",
+          "cta"
+        ],
+        "conditional": [
+          "testimonials",
+          "trust-signals",
+          "faq-section"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/service-solution.md"
+    },
+    {
+      "id": "template-hub",
+      "name": "Template Hub",
+      "family": "template",
+      "mode": "hub",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "education",
+          "relation": "common"
+        },
+        {
+          "archetype": "publication",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "grid",
+          "card"
+        ],
+        "common": [
+          "navigation-menu",
+          "task-input"
+        ],
+        "conditional": [
+          "tabs-accordion",
+          "masonry"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/template.md"
+    },
+    {
+      "id": "template-detail",
+      "name": "Template Detail",
+      "family": "template",
+      "mode": "detail",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "education",
+          "relation": "common"
+        },
+        {
+          "archetype": "publication",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "cta"
+        ],
+        "common": [
+          "hero",
+          "carousel",
+          "howto-section"
+        ],
+        "conditional": [
+          "tabs-accordion",
+          "faq-section",
+          "breadcrumb"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/template.md"
+    },
+    {
+      "id": "tool-hub",
+      "name": "Tool Hub",
+      "family": "tool",
+      "mode": "hub",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "grid",
+          "card",
+          "task-input"
+        ],
+        "conditional": [
+          "tabs-accordion",
+          "navigation-menu"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/tool.md"
+    },
+    {
+      "id": "tool-detail",
+      "name": "Tool Detail",
+      "family": "tool",
+      "mode": "detail",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "task-input"
+        ],
+        "common": [
+          "howto-section"
+        ],
+        "conditional": [
+          "agent-workspace",
+          "faq-section",
+          "modal",
+          "cta"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/tool.md"
+    },
+    {
+      "id": "docs-home",
+      "name": "Documentation Home",
+      "family": "documentation",
+      "mode": "home",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "education",
+          "relation": "common"
+        },
+        {
+          "archetype": "publication",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu",
+          "sidebar",
+          "task-input"
+        ],
+        "common": [
+          "grid",
+          "card"
+        ],
+        "conditional": [
+          "top-banner"
+        ],
+        "discouraged": [
+          "hero"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/documentation.md"
+    },
+    {
+      "id": "docs-article",
+      "name": "Documentation Article",
+      "family": "documentation",
+      "mode": "article",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "education",
+          "relation": "common"
+        },
+        {
+          "archetype": "publication",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "sidebar",
+          "table-of-contents",
+          "breadcrumb"
+        ],
+        "common": [
+          "howto-section"
+        ],
+        "conditional": [
+          "tabs-accordion",
+          "task-input"
+        ],
+        "discouraged": [
+          "hero"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/documentation.md"
+    },
+    {
+      "id": "api-reference",
+      "name": "API Reference",
+      "family": "documentation",
+      "mode": "reference",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "education",
+          "relation": "common"
+        },
+        {
+          "archetype": "publication",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "sidebar",
+          "table-of-contents",
+          "breadcrumb"
+        ],
+        "common": [
+          "howto-section"
+        ],
+        "conditional": [
+          "tabs-accordion",
+          "task-input"
+        ],
+        "discouraged": [
+          "hero"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/documentation.md"
+    },
+    {
+      "id": "glossary-index",
+      "name": "Glossary Index",
+      "family": "documentation",
+      "mode": "index",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "education",
+          "relation": "common"
+        },
+        {
+          "archetype": "publication",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "navigation-menu",
+          "grid",
+          "list"
+        ],
+        "conditional": [
+          "task-input",
+          "tabs-accordion"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/documentation.md"
+    },
+    {
+      "id": "glossary-term",
+      "name": "Glossary Term",
+      "family": "documentation",
+      "mode": "term",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "education",
+          "relation": "common"
+        },
+        {
+          "archetype": "publication",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "breadcrumb",
+          "table-of-contents"
+        ],
+        "conditional": [
+          "howto-section",
+          "social-share",
+          "cta"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/documentation.md"
+    },
+    {
+      "id": "careers",
+      "name": "Careers Page",
+      "family": "careers",
+      "mode": "hub",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "corporate",
+          "relation": "common"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "professional-services",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "hero",
+          "grid",
+          "card",
+          "cta"
+        ],
+        "conditional": [
+          "testimonials",
+          "trust-signals"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/careers.md"
+    },
+    {
+      "id": "job-detail",
+      "name": "Job Detail",
+      "family": "careers",
+      "mode": "detail",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "corporate",
+          "relation": "common"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "professional-services",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "hero",
+          "howto-section",
+          "cta"
+        ],
+        "conditional": [
+          "testimonials",
+          "trust-signals",
+          "faq-section"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/careers.md"
+    },
+    {
+      "id": "press-hub",
+      "name": "Press Hub",
+      "family": "press",
+      "mode": "hub",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "corporate",
+          "relation": "common"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "professional-services",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "navigation-menu",
+          "grid",
+          "list"
+        ],
+        "conditional": [
+          "task-input",
+          "tabs-accordion"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/press.md"
+    },
+    {
+      "id": "media-kit",
+      "name": "Media Kit",
+      "family": "press",
+      "mode": "media-kit",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "corporate",
+          "relation": "common"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "professional-services",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "breadcrumb",
+          "table-of-contents"
+        ],
+        "conditional": [
+          "howto-section",
+          "social-share",
+          "cta"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/press.md"
+    },
+    {
+      "id": "press-coverage",
+      "name": "Press Coverage",
+      "family": "press",
+      "mode": "coverage",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "corporate",
+          "relation": "common"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "professional-services",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "navigation-menu",
+          "grid",
+          "list"
+        ],
+        "conditional": [
+          "task-input",
+          "tabs-accordion"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/press.md"
+    },
+    {
+      "id": "press-release",
+      "name": "Press Release",
+      "family": "press",
+      "mode": "release",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "corporate",
+          "relation": "common"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "professional-services",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "breadcrumb",
+          "table-of-contents"
+        ],
+        "conditional": [
+          "howto-section",
+          "social-share",
+          "cta"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/press.md"
+    },
+    {
+      "id": "promotion",
+      "name": "Promotion Page",
+      "family": "campaign",
+      "mode": "promotion",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "ecommerce",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "corporate",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "cta"
+        ],
+        "common": [
+          "hero",
+          "top-banner"
+        ],
+        "conditional": [
+          "task-input",
+          "howto-section",
+          "faq-section",
+          "social-share",
+          "modal"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/campaign.md"
+    },
+    {
+      "id": "contest",
+      "name": "Contest Page",
+      "family": "campaign",
+      "mode": "contest",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "ecommerce",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "corporate",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "cta"
+        ],
+        "common": [
+          "hero",
+          "top-banner"
+        ],
+        "conditional": [
+          "task-input",
+          "howto-section",
+          "faq-section",
+          "social-share",
+          "modal"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/campaign.md"
+    },
+    {
+      "id": "event",
+      "name": "Event Page",
+      "family": "campaign",
+      "mode": "event",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "ecommerce",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "corporate",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "cta"
+        ],
+        "common": [
+          "hero",
+          "top-banner"
+        ],
+        "conditional": [
+          "task-input",
+          "howto-section",
+          "faq-section",
+          "social-share",
+          "modal"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/campaign.md"
+    },
+    {
+      "id": "waitlist",
+      "name": "Waitlist Page",
+      "family": "campaign",
+      "mode": "waitlist",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "ecommerce",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "corporate",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "cta"
+        ],
+        "common": [
+          "hero",
+          "top-banner"
+        ],
+        "conditional": [
+          "task-input",
+          "howto-section",
+          "faq-section",
+          "social-share",
+          "modal"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/campaign.md"
+    },
+    {
+      "id": "feedback",
+      "name": "Feedback Page",
+      "family": "feedback-disclosure",
+      "mode": "feedback",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "ecommerce",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "corporate",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "task-input"
+        ],
+        "common": [],
+        "conditional": [
+          "modal",
+          "faq-section",
+          "top-banner"
+        ],
+        "discouraged": [
+          "hero"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/feedback-disclosure.md"
+    },
+    {
+      "id": "disclosure",
+      "name": "Disclosure Page",
+      "family": "feedback-disclosure",
+      "mode": "disclosure",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "ecommerce",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "corporate",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "table-of-contents",
+          "breadcrumb"
+        ],
+        "conditional": [
+          "top-banner",
+          "faq-section"
+        ],
+        "discouraged": [
+          "carousel"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/feedback-disclosure.md"
     }
   ]
 }

@@ -1,7 +1,16 @@
 {
   "generated_from": "pages.json#component_recommendations",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "components": [
+    {
+      "component": "agent-workspace",
+      "core": [],
+      "common": [],
+      "conditional": [
+        "tool-detail"
+      ],
+      "discouraged": []
+    },
     {
       "component": "article-layout",
       "core": [
@@ -35,33 +44,50 @@
     {
       "component": "breadcrumb",
       "core": [
-        "detail"
+        "api-reference",
+        "detail",
+        "docs-article"
       ],
       "common": [
         "article",
         "changelog-entry",
+        "disclosure",
+        "glossary-term",
         "legal-policy",
+        "media-kit",
+        "press-release",
         "resource-detail"
       ],
-      "conditional": [],
+      "conditional": [
+        "template-detail"
+      ],
       "discouraged": []
     },
     {
       "component": "card",
-      "core": [],
+      "core": [
+        "template-hub"
+      ],
       "common": [
         "blog-index",
+        "careers",
         "case-study-index",
         "changelog-index",
         "collection",
         "contact",
         "dashboard",
         "detail",
+        "docs-home",
+        "feature-hub",
         "integration-index",
         "migration-index",
+        "product-hub",
         "resource-category",
         "resource-hub",
         "roadmap",
+        "service-hub",
+        "solution-hub",
+        "tool-hub",
         "use-case-index"
       ],
       "conditional": [
@@ -73,7 +99,9 @@
     {
       "component": "carousel",
       "core": [],
-      "common": [],
+      "common": [
+        "template-detail"
+      ],
       "conditional": [],
       "discouraged": [
         "404",
@@ -82,6 +110,7 @@
         "create-edit",
         "dashboard",
         "detail",
+        "disclosure",
         "landing",
         "pricing",
         "settings"
@@ -110,9 +139,13 @@
         "case-study-detail",
         "connector-detail",
         "dashboard",
+        "feature-detail",
+        "feature-hub",
         "landing",
         "migration-index",
         "partner-program",
+        "product-detail",
+        "product-hub",
         "startup-program",
         "student-program",
         "use-case-detail"
@@ -122,14 +155,20 @@
     {
       "component": "cta",
       "core": [
+        "contest",
+        "event",
         "landing",
-        "pricing"
+        "pricing",
+        "promotion",
+        "template-detail",
+        "waitlist"
       ],
       "common": [
         "404",
         "affiliate-program",
         "api",
         "browser-extension",
+        "careers",
         "case-study-detail",
         "cli",
         "comparison",
@@ -137,17 +176,24 @@
         "contact",
         "creator-program",
         "desktop-app",
+        "feature-detail",
         "gated-resource",
         "homepage",
         "integration-detail",
+        "job-detail",
         "mcp",
         "migration-detail",
         "migration-index",
         "mobile-app",
         "partner-program",
         "plugin-detail",
+        "product-detail",
         "referral-program",
         "resource-detail",
+        "service-detail",
+        "service-hub",
+        "solution-detail",
+        "solution-hub",
         "startup-program",
         "student-program",
         "use-case-detail"
@@ -156,7 +202,13 @@
         "about",
         "changelog-entry",
         "faq",
-        "roadmap"
+        "feature-hub",
+        "glossary-term",
+        "media-kit",
+        "press-release",
+        "product-hub",
+        "roadmap",
+        "tool-detail"
       ],
       "discouraged": []
     },
@@ -176,11 +228,17 @@
         "cli",
         "comparison",
         "connector-detail",
+        "contest",
         "creator-program",
         "desktop-app",
+        "disclosure",
+        "event",
+        "feature-detail",
+        "feedback",
         "gated-resource",
         "homepage",
         "integration-detail",
+        "job-detail",
         "landing",
         "mcp",
         "migration-detail",
@@ -188,10 +246,17 @@
         "mobile-app",
         "partner-program",
         "plugin-detail",
+        "product-detail",
+        "promotion",
         "referral-program",
+        "service-detail",
+        "solution-detail",
         "startup-program",
         "student-program",
-        "use-case-detail"
+        "template-detail",
+        "tool-detail",
+        "use-case-detail",
+        "waitlist"
       ],
       "discouraged": []
     },
@@ -212,17 +277,28 @@
     {
       "component": "grid",
       "core": [
-        "dashboard"
+        "dashboard",
+        "template-hub"
       ],
       "common": [
         "blog-index",
+        "careers",
         "case-study-index",
         "collection",
+        "docs-home",
+        "feature-hub",
+        "glossary-index",
         "integration-index",
         "migration-index",
+        "press-coverage",
+        "press-hub",
+        "product-hub",
         "resource-category",
         "resource-hub",
         "roadmap",
+        "service-hub",
+        "solution-hub",
+        "tool-hub",
         "use-case-index"
       ],
       "conditional": [],
@@ -237,28 +313,47 @@
         "affiliate-program",
         "api",
         "browser-extension",
+        "careers",
         "case-study-detail",
         "cli",
+        "contest",
         "creator-program",
         "desktop-app",
+        "event",
+        "feature-detail",
+        "feature-hub",
         "homepage",
         "integration-detail",
+        "job-detail",
         "mcp",
         "mobile-app",
         "partner-program",
         "plugin-detail",
+        "product-detail",
+        "product-hub",
+        "promotion",
         "referral-program",
+        "service-detail",
+        "service-hub",
+        "solution-detail",
+        "solution-hub",
         "startup-program",
         "student-program",
-        "use-case-detail"
+        "template-detail",
+        "use-case-detail",
+        "waitlist"
       ],
       "conditional": [],
       "discouraged": [
+        "api-reference",
         "auth",
         "collection",
         "create-edit",
         "dashboard",
         "detail",
+        "docs-article",
+        "docs-home",
+        "feedback",
         "settings"
       ]
     },
@@ -268,23 +363,40 @@
       "common": [
         "affiliate-program",
         "api",
+        "api-reference",
         "browser-extension",
         "cli",
         "connector-detail",
         "creator-program",
         "desktop-app",
+        "docs-article",
+        "feature-detail",
         "integration-detail",
+        "job-detail",
         "mcp",
         "migration-detail",
         "mobile-app",
         "partner-program",
         "plugin-detail",
+        "product-detail",
         "referral-program",
+        "service-detail",
+        "solution-detail",
         "startup-program",
         "student-program",
+        "template-detail",
+        "tool-detail",
         "use-case-detail"
       ],
-      "conditional": [],
+      "conditional": [
+        "contest",
+        "event",
+        "glossary-term",
+        "media-kit",
+        "press-release",
+        "promotion",
+        "waitlist"
+      ],
       "discouraged": []
     },
     {
@@ -294,6 +406,9 @@
         "collection"
       ],
       "common": [
+        "glossary-index",
+        "press-coverage",
+        "press-hub",
         "resource-category",
         "roadmap",
         "status"
@@ -305,16 +420,31 @@
       "discouraged": []
     },
     {
+      "component": "masonry",
+      "core": [],
+      "common": [],
+      "conditional": [
+        "template-hub"
+      ],
+      "discouraged": []
+    },
+    {
       "component": "modal",
       "core": [],
       "common": [],
       "conditional": [
         "auth",
+        "contest",
         "create-edit",
         "detail",
+        "event",
+        "feedback",
         "gated-resource",
+        "promotion",
         "roadmap",
-        "settings"
+        "settings",
+        "tool-detail",
+        "waitlist"
       ],
       "discouraged": [
         "404"
@@ -323,7 +453,10 @@
     {
       "component": "navigation-menu",
       "core": [
+        "docs-home",
+        "feature-hub",
         "homepage",
+        "product-hub",
         "settings"
       ],
       "common": [
@@ -331,14 +464,19 @@
         "case-study-index",
         "dashboard",
         "faq",
+        "glossary-index",
         "integration-index",
+        "press-coverage",
+        "press-hub",
         "resource-hub",
+        "template-hub",
         "use-case-index"
       ],
       "conditional": [
         "blog-index",
         "legal-policy",
-        "status"
+        "status",
+        "tool-hub"
       ],
       "discouraged": []
     },
@@ -358,7 +496,11 @@
     },
     {
       "component": "sidebar",
-      "core": [],
+      "core": [
+        "api-reference",
+        "docs-article",
+        "docs-home"
+      ],
       "common": [
         "collection",
         "create-edit",
@@ -379,16 +521,30 @@
         "article",
         "case-study-detail",
         "changelog-entry",
-        "resource-detail"
+        "contest",
+        "event",
+        "glossary-term",
+        "media-kit",
+        "press-release",
+        "promotion",
+        "resource-detail",
+        "waitlist"
       ],
       "discouraged": []
     },
     {
       "component": "table-of-contents",
-      "core": [],
+      "core": [
+        "api-reference",
+        "docs-article"
+      ],
       "common": [
         "article",
-        "legal-policy"
+        "disclosure",
+        "glossary-term",
+        "legal-policy",
+        "media-kit",
+        "press-release"
       ],
       "conditional": [],
       "discouraged": []
@@ -403,6 +559,7 @@
       ],
       "conditional": [
         "api",
+        "api-reference",
         "browser-extension",
         "case-study-index",
         "changelog-index",
@@ -412,33 +569,60 @@
         "connector-detail",
         "contact",
         "desktop-app",
+        "docs-article",
         "faq",
+        "feature-detail",
+        "glossary-index",
         "integration-detail",
         "integration-index",
         "mcp",
         "migration-detail",
         "plugin-detail",
+        "press-coverage",
+        "press-hub",
         "pricing",
+        "product-detail",
         "resource-category",
         "roadmap",
         "status",
+        "template-detail",
+        "template-hub",
+        "tool-hub",
         "use-case-index"
       ],
       "discouraged": []
     },
     {
       "component": "task-input",
-      "core": [],
-      "common": [],
+      "core": [
+        "docs-home",
+        "feedback",
+        "tool-detail"
+      ],
+      "common": [
+        "template-hub",
+        "tool-hub"
+      ],
       "conditional": [
         "404",
+        "api-reference",
         "case-study-index",
+        "contest",
+        "docs-article",
+        "event",
         "faq",
+        "feature-hub",
+        "glossary-index",
         "homepage",
         "integration-index",
         "landing",
+        "press-coverage",
+        "press-hub",
+        "product-hub",
+        "promotion",
         "resource-hub",
-        "use-case-index"
+        "use-case-index",
+        "waitlist"
       ],
       "discouraged": []
     },
@@ -450,10 +634,16 @@
       ],
       "conditional": [
         "about",
+        "careers",
         "case-study-detail",
         "creator-program",
         "homepage",
+        "job-detail",
         "pricing",
+        "service-detail",
+        "service-hub",
+        "solution-detail",
+        "solution-hub",
         "use-case-detail"
       ],
       "discouraged": [
@@ -465,7 +655,11 @@
       "component": "top-banner",
       "core": [],
       "common": [
-        "status"
+        "contest",
+        "event",
+        "promotion",
+        "status",
+        "waitlist"
       ],
       "conditional": [
         "blog-index",
@@ -475,6 +669,9 @@
         "create-edit",
         "dashboard",
         "detail",
+        "disclosure",
+        "docs-home",
+        "feedback",
         "integration-detail",
         "integration-index",
         "migration-detail",
@@ -501,17 +698,25 @@
         "api",
         "auth",
         "browser-extension",
+        "careers",
         "cli",
         "connector-detail",
         "contact",
         "creator-program",
         "desktop-app",
+        "feature-detail",
         "integration-detail",
+        "job-detail",
         "mcp",
         "mobile-app",
         "partner-program",
         "plugin-detail",
+        "product-detail",
         "referral-program",
+        "service-detail",
+        "service-hub",
+        "solution-detail",
+        "solution-hub",
         "startup-program",
         "use-case-detail"
       ],
