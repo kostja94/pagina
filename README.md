@@ -4,8 +4,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/kostja94/pagina)](https://github.com/kostja94/pagina/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/kostja94/pagina)](https://github.com/kostja94/pagina/commits/main)
 
-**Product website:** [alignify.co/products/pagina](https://alignify.co/products/pagina)
-
 Pagina gives coding agents page-specific contracts for turning product facts into complete, integrated, and verified pages inside an existing product.
 
 It helps an agent determine what a page must accomplish, what information and states it needs, which components belong there, how it fits the target repository, and what must be tested before the page is complete.
