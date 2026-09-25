@@ -46,6 +46,8 @@ The initial catalog covers 11 public-web and web-app page types. Additional refe
 
 `catalog/pages.json` owns page-to-Bricks recommendations. `catalog/component-page-map.json` is generated from that source and supports reverse component-to-page discovery without a second manually maintained mapping.
 
+Pagina also includes a lightweight project-memory convention for durable facts learned during page construction. It updates one active project context and incrementally archives superseded facts; broader memory, retrieval, and knowledge management remain a separate product concern.
+
 ## Validate
 
 ```bash
