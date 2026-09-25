@@ -14,4 +14,4 @@ Use real inboxes, forms, SLAs, regions, and support boundaries. Add the smallest
 
 ## Components And Verification
 
-Tabs/Accordion, Card, CTA, and trust cues may organize channels. Verify delivery, recipient routing, keyboard and screen-reader labels, privacy disclosure, attachments, rate limits, confirmation, localization, and that unavailable support is not promised.
+Tabs or Accordion, Card, CTA Section, and trust cues may organize channels. Verify delivery, recipient routing, keyboard and screen-reader labels, privacy disclosure, attachments, rate limits, confirmation, localization, and that unavailable support is not promised.

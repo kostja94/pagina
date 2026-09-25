@@ -17,4 +17,4 @@ A Product page describes an offer a customer can adopt. A Feature page describes
 
 ## Components And Verification
 
-Hero, Navigation, Grid, Card, Tabs, How-to, Comparison Table, Trust Signals, FAQ, and CTA may apply. Verify names, availability by plan or platform, screenshots and demos, limitations, dependencies, release state, links to pricing and documentation, claims, metadata, and mobile behavior.
+Hero, Navigation, Grid, Card, Tabs, How-to, Comparison Table, Trust Signals, FAQ, and CTA Section may apply. Verify names, availability by plan or platform, screenshots and demos, limitations, dependencies, release state, links to pricing and documentation, claims, metadata, and mobile behavior.

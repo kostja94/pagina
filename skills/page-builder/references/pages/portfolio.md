@@ -12,4 +12,4 @@ Portfolio pages help a visitor judge a person's or studio's capabilities through
 
 ## Components And Verification
 
-Hero, Grid, Masonry, Card, Carousel, Author Bio, Tabs, Social Share, and CTA may apply. Verify ownership and credits, client permission, shipped versus concept status, outcome attribution, confidential details, media quality and rights, captions, responsive crops, performance, accessible alternatives, contact routing, metadata, and downloadable resume freshness.
+Hero, Grid, Masonry, Card, Carousel, Author Bio, Tabs, Social Share, and CTA Section may apply. Verify ownership and credits, client permission, shipped versus concept status, outcome attribution, confidential details, media quality and rights, captions, responsive crops, performance, accessible alternatives, contact routing, metadata, and downloadable resume freshness.

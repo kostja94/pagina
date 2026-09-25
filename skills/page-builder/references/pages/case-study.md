@@ -14,4 +14,4 @@ Identify the customer and context, prior situation, constraints, implementation,
 
 ## Components And Verification
 
-Grid, Card, Hero, Author or Customer identity, Trust Signals, Testimonials, Comparison Table, Social Share, CTA, and related stories may apply. Verify publication permission, quote fidelity, metric definition and period, customer identity, sensitive information, links between Index and Detail, metadata, localization approval, and date-sensitive claims.
+Grid, Card, Hero, Author or Customer identity, Trust Signals, Testimonials, Comparison Table, Social Share, CTA Section, and related stories may apply. Verify publication permission, quote fidelity, metric definition and period, customer identity, sensitive information, links between Index and Detail, metadata, localization approval, and date-sensitive claims.

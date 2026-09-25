@@ -20,7 +20,7 @@ Developer tools emphasize credentials, environments, webhooks, and integrations.
 
 ## Components
 
-Navigation, Sidebar, Tabs/Accordion, Modal, and Top Banner are common candidates. Marketing Hero, Testimonials, and Carousel conflict with repeated configuration work.
+Navigation, Sidebar, Tabs or Accordion, Modal, and Announcement Banner are common candidates. Marketing Hero, Testimonials, and Carousel conflict with repeated configuration work.
 
 ## Verify
 

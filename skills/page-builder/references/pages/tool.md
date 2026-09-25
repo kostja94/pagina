@@ -15,4 +15,4 @@ A Tool page performs work. A Feature page explains a product capability, and a R
 
 ## Components And Verification
 
-Task Input, Agent Workspace, How-to, FAQ, Top Banner, Modal, related-tool Cards, and CTA may apply. Verify validation, loading, failure, limits, privacy, data retention, accessibility, mobile input, deterministic or AI uncertainty, result export, abuse controls, authentication gates, analytics, metadata, and truthful conversion claims.
+Task Input, Agent Workspace, How-to, FAQ, Announcement Banner, Modal, related-tool Cards, and CTA Section may apply. Verify validation, loading, failure, limits, privacy, data retention, accessibility, mobile input, deterministic or AI uncertainty, result export, abuse controls, authentication gates, analytics, metadata, and truthful conversion claims.

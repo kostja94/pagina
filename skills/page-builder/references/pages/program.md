@@ -15,7 +15,7 @@ Program pages explain a structured relationship, its value exchange, eligibility
 
 ## Sections And Components
 
-Core regions cover audience, benefits, eligibility, obligations, process, review, terms, CTA and response expectation. Hero, CTA, How-to Section, FAQ, Comparison Table, Trust Signals, Testimonials, and form controls are candidates.
+Core regions cover audience, benefits, eligibility, obligations, process, review, terms, CTA Section and response expectation. Hero, CTA Section, How-to Section, FAQ, Comparison Table, Trust Signals, Testimonials, and form controls are candidates.
 
 ## Verify
 

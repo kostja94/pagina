@@ -14,4 +14,4 @@ Explain connected products, supported use cases, prerequisites, authentication, 
 
 ## Components And Verification
 
-Grid, Card, Task Input or Search, How-to Section, Tabs, FAQ, CTA, Trust Signals, Modal, and Top Banner may apply. Verify actual availability, OAuth or credential handling, scopes, setup and revoke flows, sync failures, rate limits, version compatibility, deprecation, metadata, and Index-to-Detail links.
+Grid, Card, Task Input or Search, How-to Section, Tabs, FAQ, CTA Section, Trust Signals, Modal, and Announcement Banner may apply. Verify actual availability, OAuth or credential handling, scopes, setup and revoke flows, sync failures, rate limits, version compatibility, deprecation, metadata, and Index-to-Detail links.

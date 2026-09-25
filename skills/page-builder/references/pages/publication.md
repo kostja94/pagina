@@ -14,4 +14,4 @@ Publication pages help readers discover, follow, and assess timely editorial wor
 
 ## Components And Verification
 
-Navigation, Article Layout, Author Bio, Grid, List, Card, Top Banner, Table of Contents, Newsletter, Social Share, and related coverage may apply. Verify timestamps and time zones, bylines, corrections, source links, captions and rights, paywall or entitlement, live-update ordering, structured data, canonical identity, topic pagination, accessibility, and preservation of archived reporting.
+Navigation, Article Content Layout, Author Bio, Grid, List, Card, Announcement Banner, Table of Contents, Newsletter, Social Share, and related coverage may apply. Verify timestamps and time zones, bylines, corrections, source links, captions and rights, paywall or entitlement, live-update ordering, structured data, canonical identity, topic pagination, accessibility, and preservation of archived reporting.

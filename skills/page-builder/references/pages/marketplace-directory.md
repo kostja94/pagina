@@ -17,4 +17,4 @@ Use Commerce pages when the site is the merchant and owns checkout. Use Marketpl
 
 ## Components And Verification
 
-Navigation, Task Input, Grid, List, Card, Sidebar, Breadcrumb, Trust Signals, Testimonials or Reviews, Modal, and CTA may apply. Verify taxonomy, filters, geographic data, duplicates, claimed ownership, moderation, sponsored placement, review provenance, stale listings, permissions, fees, transaction handoff, abuse reporting, empty markets, pagination, metadata, and indexing.
+Navigation, Task Input, Grid, List, Card, Sidebar, Breadcrumb, Trust Signals, Testimonials or Reviews, Modal, and CTA Section may apply. Verify taxonomy, filters, geographic data, duplicates, claimed ownership, moderation, sponsored placement, review provenance, stale listings, permissions, fees, transaction handoff, abuse reporting, empty markets, pagination, metadata, and indexing.

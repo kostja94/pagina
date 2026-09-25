@@ -14,4 +14,4 @@ Establish the audience and job, current problem, workflow, product mechanism, ev
 
 ## Components And Verification
 
-Grid, Card, Hero, How-to Section, Trust Signals, Testimonials, Comparison Table, FAQ, and CTA may apply. Verify dimension consistency, real product capability, evidence, links between Index and Detail, overlapping pages, canonical metadata, localization, and avoidance of generic copy that could fit any audience.
+Grid, Card, Hero, How-to Section, Trust Signals, Testimonials, Comparison Table, FAQ, and CTA Section may apply. Verify dimension consistency, real product capability, evidence, links between Index and Detail, overlapping pages, canonical metadata, localization, and avoidance of generic copy that could fit any audience.

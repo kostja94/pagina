@@ -19,4 +19,4 @@ Legal Policy pages contain binding approved terms. Product Feature pages explain
 
 ## Components And Verification
 
-Navigation, Trust Signals, Table of Contents, FAQ, Comparison Table, Task Input or gated evidence request, Top Banner, and Footer may apply. Verify every certification, report, region, subprocessor, effective date, contact path, access restriction, download, update mechanism, and cross-link against approved current sources. Do not expose confidential evidence or imply that a certification covers products, regions, or periods outside its stated scope.
+Navigation, Trust Signals, Table of Contents, FAQ, Comparison Table, Task Input or gated evidence request, Announcement Banner, and Footer may apply. Verify every certification, report, region, subprocessor, effective date, contact path, access restriction, download, update mechanism, and cross-link against approved current sources. Do not expose confidential evidence or imply that a certification covers products, regions, or periods outside its stated scope.

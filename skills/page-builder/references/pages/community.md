@@ -14,4 +14,4 @@ Community pages support discovery, participation, identity, and moderation among
 
 ## Components And Verification
 
-Navigation, Sidebar, Task Input, Conversation, Author Bio, List, Card, Tabs, Modal, Top Banner, and editor surfaces may apply. Verify authentication, membership and role permissions, blocked users, moderation and appeals, drafts, edits and deletion, mentions, notifications, attachments, reporting, rate limits, private communities, accessibility, pagination, deep links, and empty states.
+Navigation, Sidebar, Task Input, Conversation, Author Bio, List, Card, Tabs, Modal, Announcement Banner, and editor surfaces may apply. Verify authentication, membership and role permissions, blocked users, moderation and appeals, drafts, edits and deletion, mentions, notifications, attachments, reporting, rate limits, private communities, accessibility, pagination, deep links, and empty states.

@@ -13,4 +13,4 @@ Resource pages help users discover, evaluate, and obtain maintained educational 
 
 ## Components And Verification
 
-Navigation, Grid, List, Card, Tabs, Newsletter, CTA, Modal, and Trust Signals may apply. Verify taxonomy, deduplication, empty and large collections, access and download links, asset version, form delivery, consent, repeat requests, localization, metadata, indexing, and expired or withdrawn resources.
+Navigation, Grid, List, Card, Tabs, Newsletter, CTA Section, Modal, and Trust Signals may apply. Verify taxonomy, deduplication, empty and large collections, access and download links, asset version, form delivery, consent, repeat requests, localization, metadata, indexing, and expired or withdrawn resources.

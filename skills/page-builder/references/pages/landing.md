@@ -22,7 +22,7 @@ SaaS pages usually connect pain, workflow, product evidence, and signup or demo.
 
 ## Components
 
-Hero and CTA are common candidates; trust, testimonials, FAQ, comparison, task input, and newsletter are conditional. Avoid carousels when they hide proof or competing messages.
+Hero and CTA Section are common candidates; trust, testimonials, FAQ, comparison, task input, and newsletter are conditional. Avoid carousels when they hide proof or competing messages.
 
 ## Verify
 

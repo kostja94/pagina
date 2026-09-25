@@ -26,7 +26,7 @@ Section order follows the audience's recognition and evaluation needs. These vis
 
 ## Components
 
-Use the catalog recommendations as candidates. Navigation and footer support the page boundary; Hero, CTA, trust, testimonials, FAQ, task input, and newsletter appear only when their content serves the homepage task.
+Use the catalog recommendations as candidates. Navigation and footer support the page boundary; Hero, CTA Section, trust, testimonials, FAQ, task input, and newsletter appear only when their content serves the homepage task.
 
 ## Verify
 

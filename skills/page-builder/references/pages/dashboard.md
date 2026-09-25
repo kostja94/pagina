@@ -20,7 +20,7 @@ SaaS may emphasize activation, usage, account health, and recent work. Analytics
 
 ## Components
 
-Grid, Card, List, Sidebar, Navigation, and Top Banner are candidates. Compact hierarchy and stable dimensions matter more than marketing-style presentation; Hero and Carousel are generally poor fits.
+Grid, Card, List, Sidebar, Navigation, and Announcement Banner are candidates. Compact hierarchy and stable dimensions matter more than marketing-style presentation; Hero and Carousel are generally poor fits.
 
 ## Verify
 

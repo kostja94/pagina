@@ -15,7 +15,7 @@ Product Interface pages explain one way to access or operate the product and lea
 
 ## Sections And Components
 
-Core regions cover interface identity, supported environment, capabilities, acquisition or connection, first success, and help. Hero, CTA, Task Input, How-to Section, Tabs, Code-friendly content, FAQ, and Trust Signals are candidates.
+Core regions cover interface identity, supported environment, capabilities, acquisition or connection, first success, and help. Hero, CTA Section, Task Input, How-to Section, Tabs, Code-friendly content, FAQ, and Trust Signals are candidates.
 
 ## Verify
 

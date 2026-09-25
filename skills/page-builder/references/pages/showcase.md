@@ -20,4 +20,4 @@ A Showcase demonstrates user-created output. A Case Study explains an attributab
 
 ## Components And Verification
 
-Grid, Masonry, Card, Carousel, Task Input, Author Bio, Tabs, Modal, Social Share, and CTA may apply. Verify ownership, consent, attribution links, media rights, moderation, duplicate submissions, sensitive content, broken destinations, filters, pagination, responsive media, performance, accessibility, metadata, and removal requests.
+Grid, Masonry, Card, Carousel, Task Input, Author Bio, Tabs, Modal, Social Share, and CTA Section may apply. Verify ownership, consent, attribution links, media rights, moderation, duplicate submissions, sensitive content, broken destinations, filters, pagination, responsive media, performance, accessibility, metadata, and removal requests.

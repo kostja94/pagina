@@ -38,7 +38,7 @@
         ],
         "common": [
           "hero",
-          "cta",
+          "cta-section",
           "trust-signals"
         ],
         "conditional": [
@@ -89,16 +89,17 @@
       "component_recommendations": {
         "core": [
           "comparison-table",
-          "cta"
+          "cta-section"
         ],
         "common": [
           "faq-section",
           "trust-signals"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "testimonials",
-          "top-banner"
+          "announcement-banner"
         ],
         "discouraged": [
           "carousel"
@@ -144,7 +145,7 @@
       "component_recommendations": {
         "core": [
           "hero",
-          "cta"
+          "cta-section"
         ],
         "common": [
           "trust-signals",
@@ -195,7 +196,7 @@
       ],
       "component_recommendations": {
         "core": [
-          "blog-index"
+          "post-collection"
         ],
         "common": [
           "card",
@@ -204,7 +205,7 @@
         "conditional": [
           "newsletter-signup",
           "navigation-menu",
-          "top-banner"
+          "announcement-banner"
         ],
         "discouraged": []
       },
@@ -243,7 +244,7 @@
       ],
       "component_recommendations": {
         "core": [
-          "article-layout"
+          "article-content-layout"
         ],
         "common": [
           "breadcrumb",
@@ -306,7 +307,7 @@
           "navigation-menu"
         ],
         "conditional": [
-          "top-banner",
+          "announcement-banner",
           "list",
           "comparison-table"
         ],
@@ -361,8 +362,9 @@
           "sidebar"
         ],
         "conditional": [
-          "tabs-accordion",
-          "top-banner"
+          "tabs",
+          "accordion",
+          "announcement-banner"
         ],
         "discouraged": [
           "hero"
@@ -407,13 +409,14 @@
           "breadcrumb"
         ],
         "common": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "sidebar",
           "card"
         ],
         "conditional": [
           "modal",
-          "top-banner",
+          "announcement-banner",
           "list"
         ],
         "discouraged": [
@@ -459,11 +462,12 @@
         "core": [],
         "common": [
           "sidebar",
-          "tabs-accordion"
+          "tabs",
+          "accordion"
         ],
         "conditional": [
           "modal",
-          "top-banner",
+          "announcement-banner",
           "cms-editor-workspace"
         ],
         "discouraged": [
@@ -511,11 +515,12 @@
         ],
         "common": [
           "sidebar",
-          "tabs-accordion"
+          "tabs",
+          "accordion"
         ],
         "conditional": [
           "modal",
-          "top-banner"
+          "announcement-banner"
         ],
         "discouraged": [
           "hero",
@@ -564,7 +569,7 @@
         "core": [],
         "common": [
           "navigation-menu",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
           "task-input",
@@ -622,7 +627,7 @@
         ],
         "conditional": [
           "testimonials",
-          "cta",
+          "cta-section",
           "footer"
         ],
         "discouraged": []
@@ -669,10 +674,11 @@
         "core": [],
         "common": [
           "card",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "trust-signals"
         ],
         "discouraged": []
@@ -723,9 +729,10 @@
           "navigation-menu"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "task-input",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -769,11 +776,12 @@
         ],
         "common": [
           "trust-signals",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
           "faq-section",
-          "tabs-accordion"
+          "tabs",
+          "accordion"
         ],
         "discouraged": []
       },
@@ -864,12 +872,13 @@
       "component_recommendations": {
         "core": [],
         "common": [
-          "top-banner",
+          "announcement-banner",
           "list"
         ],
         "conditional": [
           "card",
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "navigation-menu"
         ],
         "discouraged": []
@@ -916,8 +925,9 @@
           "card"
         ],
         "conditional": [
-          "tabs-accordion",
-          "top-banner"
+          "tabs",
+          "accordion",
+          "announcement-banner"
         ],
         "discouraged": []
       },
@@ -962,8 +972,8 @@
         ],
         "conditional": [
           "social-share",
-          "cta",
-          "top-banner"
+          "cta-section",
+          "announcement-banner"
         ],
         "discouraged": []
       },
@@ -1009,10 +1019,11 @@
           "card"
         ],
         "conditional": [
-          "tabs-accordion",
-          "top-banner",
+          "tabs",
+          "accordion",
+          "announcement-banner",
           "modal",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -1100,11 +1111,12 @@
         "core": [],
         "common": [
           "hero",
-          "cta",
+          "cta-section",
           "howto-section"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "faq-section",
           "trust-signals"
         ],
@@ -1149,11 +1161,12 @@
         "core": [],
         "common": [
           "hero",
-          "cta",
+          "cta-section",
           "howto-section"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "faq-section",
           "trust-signals"
         ],
@@ -1198,7 +1211,7 @@
         "core": [],
         "common": [
           "hero",
-          "cta",
+          "cta-section",
           "howto-section"
         ],
         "conditional": [
@@ -1242,11 +1255,12 @@
         "core": [],
         "common": [
           "hero",
-          "cta",
+          "cta-section",
           "howto-section"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "faq-section",
           "trust-signals"
         ],
@@ -1287,11 +1301,12 @@
         "core": [],
         "common": [
           "hero",
-          "cta",
+          "cta-section",
           "howto-section"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "faq-section",
           "trust-signals"
         ],
@@ -1332,11 +1347,12 @@
         "core": [],
         "common": [
           "hero",
-          "cta",
+          "cta-section",
           "howto-section"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "faq-section",
           "trust-signals"
         ],
@@ -1377,7 +1393,7 @@
         "core": [],
         "common": [
           "hero",
-          "cta",
+          "cta-section",
           "howto-section"
         ],
         "conditional": [
@@ -1422,7 +1438,7 @@
         "core": [],
         "common": [
           "hero",
-          "cta",
+          "cta-section",
           "howto-section"
         ],
         "conditional": [
@@ -1470,7 +1486,7 @@
         "core": [],
         "common": [
           "hero",
-          "cta",
+          "cta-section",
           "howto-section"
         ],
         "conditional": [
@@ -1515,7 +1531,7 @@
         "core": [],
         "common": [
           "hero",
-          "cta",
+          "cta-section",
           "howto-section"
         ],
         "conditional": [
@@ -1564,7 +1580,7 @@
         "core": [],
         "common": [
           "hero",
-          "cta",
+          "cta-section",
           "howto-section"
         ],
         "conditional": [
@@ -1612,7 +1628,7 @@
         "core": [],
         "common": [
           "hero",
-          "cta",
+          "cta-section",
           "howto-section"
         ],
         "conditional": [
@@ -1661,7 +1677,7 @@
         "common": [
           "grid",
           "card",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
           "comparison-table",
@@ -1708,12 +1724,13 @@
         "common": [
           "howto-section",
           "comparison-table",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "faq-section",
-          "top-banner"
+          "announcement-banner"
         ],
         "discouraged": []
       },
@@ -1807,7 +1824,8 @@
         ],
         "conditional": [
           "sidebar",
-          "tabs-accordion"
+          "tabs",
+          "accordion"
         ],
         "discouraged": []
       },
@@ -1849,7 +1867,7 @@
         "core": [],
         "common": [
           "breadcrumb",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
           "social-share",
@@ -1895,7 +1913,7 @@
       "component_recommendations": {
         "core": [],
         "common": [
-          "cta",
+          "cta-section",
           "trust-signals"
         ],
         "conditional": [
@@ -1946,7 +1964,8 @@
           "navigation-menu"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "task-input"
         ],
         "discouraged": []
@@ -1990,7 +2009,7 @@
         "common": [
           "hero",
           "howto-section",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
           "trust-signals",
@@ -2043,8 +2062,9 @@
         ],
         "conditional": [
           "task-input",
-          "tabs-accordion",
-          "top-banner"
+          "tabs",
+          "accordion",
+          "announcement-banner"
         ],
         "discouraged": []
       },
@@ -2084,13 +2104,14 @@
         "common": [
           "hero",
           "howto-section",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "faq-section",
           "trust-signals",
-          "top-banner"
+          "announcement-banner"
         ],
         "discouraged": []
       },
@@ -2130,10 +2151,11 @@
         "common": [
           "hero",
           "howto-section",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "faq-section",
           "trust-signals"
         ],
@@ -2178,11 +2200,12 @@
         "core": [],
         "common": [
           "howto-section",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
           "comparison-table",
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "faq-section",
           "trust-signals"
         ],
@@ -2231,7 +2254,8 @@
         ],
         "conditional": [
           "task-input",
-          "tabs-accordion"
+          "tabs",
+          "accordion"
         ],
         "discouraged": []
       },
@@ -2274,7 +2298,7 @@
         "common": [
           "hero",
           "trust-signals",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
           "testimonials",
@@ -2325,7 +2349,7 @@
         "conditional": [
           "task-input",
           "comparison-table",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -2364,10 +2388,11 @@
         "common": [
           "hero",
           "howto-section",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "comparison-table",
           "trust-signals",
           "faq-section"
@@ -2416,7 +2441,7 @@
         "conditional": [
           "task-input",
           "comparison-table",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -2455,10 +2480,11 @@
         "common": [
           "hero",
           "howto-section",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "comparison-table",
           "trust-signals",
           "faq-section"
@@ -2501,7 +2527,7 @@
           "hero",
           "grid",
           "card",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
           "testimonials",
@@ -2544,7 +2570,7 @@
         "common": [
           "hero",
           "howto-section",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
           "testimonials",
@@ -2589,7 +2615,7 @@
           "hero",
           "grid",
           "card",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
           "testimonials",
@@ -2632,7 +2658,7 @@
         "common": [
           "hero",
           "howto-section",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
           "testimonials",
@@ -2685,7 +2711,8 @@
           "task-input"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "masonry"
         ],
         "discouraged": []
@@ -2726,7 +2753,7 @@
       ],
       "component_recommendations": {
         "core": [
-          "cta"
+          "cta-section"
         ],
         "common": [
           "hero",
@@ -2734,7 +2761,8 @@
           "howto-section"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "faq-section",
           "breadcrumb"
         ],
@@ -2778,7 +2806,8 @@
           "task-input"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "navigation-menu"
         ],
         "discouraged": []
@@ -2824,7 +2853,7 @@
           "agent-workspace",
           "faq-section",
           "modal",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -2873,7 +2902,7 @@
           "card"
         ],
         "conditional": [
-          "top-banner"
+          "announcement-banner"
         ],
         "discouraged": [
           "hero"
@@ -2923,7 +2952,8 @@
           "howto-section"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "task-input"
         ],
         "discouraged": [
@@ -2974,7 +3004,8 @@
           "howto-section"
         ],
         "conditional": [
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "task-input"
         ],
         "discouraged": [
@@ -3024,7 +3055,8 @@
         ],
         "conditional": [
           "task-input",
-          "tabs-accordion"
+          "tabs",
+          "accordion"
         ],
         "discouraged": []
       },
@@ -3071,7 +3103,7 @@
         "conditional": [
           "howto-section",
           "social-share",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -3111,7 +3143,7 @@
           "hero",
           "grid",
           "card",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
           "testimonials",
@@ -3154,7 +3186,7 @@
         "common": [
           "hero",
           "howto-section",
-          "cta"
+          "cta-section"
         ],
         "conditional": [
           "testimonials",
@@ -3202,7 +3234,8 @@
         ],
         "conditional": [
           "task-input",
-          "tabs-accordion"
+          "tabs",
+          "accordion"
         ],
         "discouraged": []
       },
@@ -3245,7 +3278,7 @@
         "conditional": [
           "howto-section",
           "social-share",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -3288,7 +3321,8 @@
         ],
         "conditional": [
           "task-input",
-          "tabs-accordion"
+          "tabs",
+          "accordion"
         ],
         "discouraged": []
       },
@@ -3331,7 +3365,7 @@
         "conditional": [
           "howto-section",
           "social-share",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -3371,11 +3405,11 @@
       ],
       "component_recommendations": {
         "core": [
-          "cta"
+          "cta-section"
         ],
         "common": [
           "hero",
-          "top-banner"
+          "announcement-banner"
         ],
         "conditional": [
           "task-input",
@@ -3422,11 +3456,11 @@
       ],
       "component_recommendations": {
         "core": [
-          "cta"
+          "cta-section"
         ],
         "common": [
           "hero",
-          "top-banner"
+          "announcement-banner"
         ],
         "conditional": [
           "task-input",
@@ -3473,11 +3507,11 @@
       ],
       "component_recommendations": {
         "core": [
-          "cta"
+          "cta-section"
         ],
         "common": [
           "hero",
-          "top-banner"
+          "announcement-banner"
         ],
         "conditional": [
           "task-input",
@@ -3524,11 +3558,11 @@
       ],
       "component_recommendations": {
         "core": [
-          "cta"
+          "cta-section"
         ],
         "common": [
           "hero",
-          "top-banner"
+          "announcement-banner"
         ],
         "conditional": [
           "task-input",
@@ -3581,7 +3615,7 @@
         "conditional": [
           "modal",
           "faq-section",
-          "top-banner"
+          "announcement-banner"
         ],
         "discouraged": [
           "hero"
@@ -3628,7 +3662,7 @@
           "breadcrumb"
         ],
         "conditional": [
-          "top-banner",
+          "announcement-banner",
           "faq-section"
         ],
         "discouraged": [
@@ -3672,8 +3706,9 @@
           "sidebar"
         ],
         "conditional": [
-          "tabs-accordion",
-          "top-banner"
+          "tabs",
+          "accordion",
+          "announcement-banner"
         ],
         "discouraged": []
       },
@@ -3705,11 +3740,12 @@
       ],
       "component_recommendations": {
         "core": [
-          "cta"
+          "cta-section"
         ],
         "common": [
           "carousel",
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "trust-signals"
         ],
         "conditional": [
@@ -3747,14 +3783,14 @@
       ],
       "component_recommendations": {
         "core": [
-          "cta"
+          "cta-section"
         ],
         "common": [
           "list",
           "trust-signals"
         ],
         "conditional": [
-          "top-banner",
+          "announcement-banner",
           "modal",
           "faq-section"
         ],
@@ -3790,14 +3826,14 @@
       ],
       "component_recommendations": {
         "core": [
-          "cta"
+          "cta-section"
         ],
         "common": [
           "list",
           "trust-signals"
         ],
         "conditional": [
-          "top-banner",
+          "announcement-banner",
           "modal",
           "faq-section"
         ],
@@ -3835,12 +3871,12 @@
         "core": [],
         "common": [
           "list",
-          "top-banner"
+          "announcement-banner"
         ],
         "conditional": [
           "howto-section",
           "faq-section",
-          "cta"
+          "cta-section"
         ],
         "discouraged": [
           "hero"
@@ -3877,12 +3913,12 @@
         "core": [],
         "common": [
           "list",
-          "top-banner"
+          "announcement-banner"
         ],
         "conditional": [
           "howto-section",
           "faq-section",
-          "cta"
+          "cta-section"
         ],
         "discouraged": [
           "hero"
@@ -3926,8 +3962,9 @@
           "sidebar"
         ],
         "conditional": [
-          "tabs-accordion",
-          "top-banner"
+          "tabs",
+          "accordion",
+          "announcement-banner"
         ],
         "discouraged": []
       },
@@ -3971,7 +4008,8 @@
         ],
         "conditional": [
           "sidebar",
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "card"
         ],
         "discouraged": []
@@ -4016,7 +4054,8 @@
         ],
         "conditional": [
           "sidebar",
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "card"
         ],
         "discouraged": []
@@ -4061,7 +4100,7 @@
           "carousel",
           "trust-signals",
           "testimonials",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -4105,7 +4144,7 @@
         ],
         "conditional": [
           "modal",
-          "top-banner",
+          "announcement-banner",
           "faq-section"
         ],
         "discouraged": [
@@ -4155,7 +4194,7 @@
         "conditional": [
           "task-input",
           "author-bio",
-          "top-banner",
+          "announcement-banner",
           "modal"
         ],
         "discouraged": [
@@ -4205,7 +4244,7 @@
         "conditional": [
           "task-input",
           "author-bio",
-          "top-banner",
+          "announcement-banner",
           "modal"
         ],
         "discouraged": [
@@ -4255,7 +4294,7 @@
         "conditional": [
           "task-input",
           "author-bio",
-          "top-banner",
+          "announcement-banner",
           "modal"
         ],
         "discouraged": [
@@ -4305,7 +4344,7 @@
         "conditional": [
           "task-input",
           "author-bio",
-          "top-banner",
+          "announcement-banner",
           "modal"
         ],
         "discouraged": [
@@ -4351,7 +4390,7 @@
         ],
         "conditional": [
           "modal",
-          "top-banner",
+          "announcement-banner",
           "faq-section"
         ],
         "discouraged": [
@@ -4398,7 +4437,8 @@
         ],
         "conditional": [
           "sidebar",
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "card"
         ],
         "discouraged": []
@@ -4443,7 +4483,7 @@
           "carousel",
           "trust-signals",
           "testimonials",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -4487,8 +4527,9 @@
           "table-of-contents"
         ],
         "conditional": [
-          "article-layout",
-          "tabs-accordion",
+          "article-content-layout",
+          "tabs",
+          "accordion",
           "howto-section",
           "task-input",
           "modal"
@@ -4537,8 +4578,9 @@
           "table-of-contents"
         ],
         "conditional": [
-          "article-layout",
-          "tabs-accordion",
+          "article-content-layout",
+          "tabs",
+          "accordion",
           "howto-section",
           "task-input",
           "modal"
@@ -4586,7 +4628,7 @@
         ],
         "conditional": [
           "modal",
-          "top-banner",
+          "announcement-banner",
           "faq-section"
         ],
         "discouraged": [
@@ -4634,7 +4676,7 @@
           "carousel",
           "trust-signals",
           "testimonials",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -4678,7 +4720,8 @@
         ],
         "conditional": [
           "sidebar",
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "card"
         ],
         "discouraged": []
@@ -4723,7 +4766,8 @@
         ],
         "conditional": [
           "sidebar",
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "card"
         ],
         "discouraged": []
@@ -4760,7 +4804,7 @@
       ],
       "component_recommendations": {
         "core": [
-          "article-layout",
+          "article-content-layout",
           "author-bio"
         ],
         "common": [
@@ -4768,7 +4812,7 @@
           "social-share"
         ],
         "conditional": [
-          "top-banner",
+          "announcement-banner",
           "table-of-contents",
           "newsletter-signup"
         ],
@@ -4806,7 +4850,7 @@
       ],
       "component_recommendations": {
         "core": [
-          "article-layout",
+          "article-content-layout",
           "author-bio"
         ],
         "common": [
@@ -4814,7 +4858,7 @@
           "social-share"
         ],
         "conditional": [
-          "top-banner",
+          "announcement-banner",
           "table-of-contents",
           "newsletter-signup"
         ],
@@ -4860,7 +4904,7 @@
           "carousel",
           "trust-signals",
           "testimonials",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -4905,7 +4949,7 @@
           "masonry",
           "carousel",
           "author-bio",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -4950,7 +4994,7 @@
           "masonry",
           "carousel",
           "author-bio",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -4995,7 +5039,7 @@
           "masonry",
           "carousel",
           "author-bio",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -5043,10 +5087,11 @@
           "carousel",
           "task-input",
           "author-bio",
-          "tabs-accordion",
+          "tabs",
+          "accordion",
           "modal",
           "social-share",
-          "cta"
+          "cta-section"
         ],
         "discouraged": []
       },
@@ -5105,7 +5150,7 @@
         "conditional": [
           "comparison-table",
           "task-input",
-          "top-banner"
+          "announcement-banner"
         ],
         "discouraged": [
           "carousel"
@@ -5161,7 +5206,7 @@
         "conditional": [
           "comparison-table",
           "task-input",
-          "top-banner"
+          "announcement-banner"
         ],
         "discouraged": [
           "carousel"
@@ -5217,7 +5262,7 @@
         "conditional": [
           "comparison-table",
           "task-input",
-          "top-banner"
+          "announcement-banner"
         ],
         "discouraged": [
           "carousel"
@@ -5273,7 +5318,7 @@
         "conditional": [
           "comparison-table",
           "task-input",
-          "top-banner"
+          "announcement-banner"
         ],
         "discouraged": [
           "carousel"
@@ -5329,7 +5374,7 @@
         "conditional": [
           "comparison-table",
           "task-input",
-          "top-banner"
+          "announcement-banner"
         ],
         "discouraged": [
           "carousel"
@@ -5385,7 +5430,7 @@
         "conditional": [
           "comparison-table",
           "task-input",
-          "top-banner"
+          "announcement-banner"
         ],
         "discouraged": [
           "carousel"

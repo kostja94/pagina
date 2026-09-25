@@ -14,4 +14,4 @@ Use confirmed names, roles, metrics, ownership, funding, and policies. Single-pe
 
 ## Components And Verification
 
-Author Bio, Trust Signals, Testimonials, Timeline-like Lists, CTA, and Footer may support the page. Verify factual attribution, links to people and policies, structured identity data where used, localization, mobile hierarchy, and that every credibility claim is supportable.
+Author Bio, Trust Signals, Testimonials, Timeline-like Lists, CTA Section, and Footer may support the page. Verify factual attribution, links to people and policies, structured identity data where used, localization, mobile hierarchy, and that every credibility claim is supportable.

@@ -16,4 +16,4 @@ Commerce pages help shoppers discover, evaluate, purchase, and follow the fulfil
 
 ## Components And Verification
 
-Navigation, Task Input, Grid, Card, Carousel, Tabs, Trust Signals, FAQ, Top Banner, Modal, and CTA may apply. Verify variant and inventory races, price and currency, tax, shipping, discounts, payment retries, idempotency, address validation, fraud and privacy boundaries, receipts, cancellation and returns, unavailable items, localization, structured data, accessibility, and small-screen purchase flow.
+Navigation, Task Input, Grid, Card, Carousel, Tabs, Trust Signals, FAQ, Announcement Banner, Modal, and CTA Section may apply. Verify variant and inventory races, price and currency, tax, shipping, discounts, payment retries, idempotency, address validation, fraud and privacy boundaries, receipts, cancellation and returns, unavailable items, localization, structured data, accessibility, and small-screen purchase flow.

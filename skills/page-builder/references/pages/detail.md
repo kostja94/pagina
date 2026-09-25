@@ -20,7 +20,7 @@ CRM details emphasize relationship history and next actions. Ecommerce details i
 
 ## Components
 
-Breadcrumb, Tabs/Accordion, Sidebar, Card, List, Modal, and Top Banner are candidates. Do not use a marketing Hero where a compact identity header is required.
+Breadcrumb, Tabs or Accordion, Sidebar, Card, List, Modal, and Announcement Banner are candidates. Do not use a marketing Hero where a compact identity header is required.
 
 ## Verify
 

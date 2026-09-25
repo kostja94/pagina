@@ -15,4 +15,4 @@ Learning pages help a learner choose, enroll in, progress through, and complete 
 
 ## Components And Verification
 
-Navigation, Sidebar, Breadcrumb, Table of Contents, How-to, Tabs, Task Input, Article Layout, media supplied by the host project, Modal, and CTA may apply. Verify enrollment and entitlement, prerequisites, progress sync, autosave, attempt rules, timing, grading, accessibility, captions and transcripts, offline or reconnect behavior, completion thresholds, certificate verification, localization, and learner privacy.
+Navigation, Sidebar, Breadcrumb, Table of Contents, How-to, Tabs, Task Input, Article Content Layout, media supplied by the host project, Modal, and CTA Section may apply. Verify enrollment and entitlement, prerequisites, progress sync, autosave, attempt rules, timing, grading, accessibility, captions and transcripts, offline or reconnect behavior, completion thresholds, certificate verification, localization, and learner privacy.

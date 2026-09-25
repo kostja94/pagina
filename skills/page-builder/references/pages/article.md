@@ -20,7 +20,7 @@ News emphasizes attribution, time, corrections, and recency. SaaS education may 
 
 ## Components
 
-Use Bricks Article Layout as a composition reference. Breadcrumb, Table of Contents, Author Bio, Social Share, FAQ, and Newsletter are optional according to content and publication policy.
+Use Bricks Article Content Layout as a composition reference. Breadcrumb, Table of Contents, Author Bio, Social Share, FAQ, and Newsletter are optional according to content and publication policy.
 
 ## Verify
 

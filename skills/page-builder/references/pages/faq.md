@@ -14,4 +14,4 @@ Questions must come from support, sales, product, search, or confirmed user inpu
 
 ## Components And Verification
 
-FAQ Section, Tabs/Accordion, Navigation, Task Input or Search, and CTA may apply. Verify answer accuracy, direct links, crawlable content, keyboard disclosure, duplicate questions, structured data consistency when present, and escalation paths.
+FAQ Section, Tabs or Accordion, Navigation, Task Input or Search, and CTA Section may apply. Verify answer accuracy, direct links, crawlable content, keyboard disclosure, duplicate questions, structured data consistency when present, and escalation paths.

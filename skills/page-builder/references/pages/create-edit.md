@@ -20,7 +20,7 @@ CMS and creator products may require a full editor workspace, metadata, preview,
 
 ## Components
 
-Tabs, Sidebar, Modal, Top Banner, and CMS Editor Workspace are candidates. Use established form and editor libraries for complex validation, rich documents, history, collaboration, or accessibility.
+Tabs, Sidebar, Modal, Announcement Banner, and CMS Editor Workspace are candidates. Use established form and editor libraries for complex validation, rich documents, history, collaboration, or accessibility.
 
 ## Verify
 

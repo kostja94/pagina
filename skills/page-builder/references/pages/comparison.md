@@ -14,4 +14,4 @@ Use current, attributable competitor facts and distinguish measured evidence, of
 
 ## Components And Verification
 
-Comparison Table, Trust Signals, FAQ, CTA, and Tabs may apply. Verify source dates, plan and feature accuracy, trademark use, mobile tables, fair criteria, canonical metadata, and links to deeper migration or product pages.
+Comparison Table, Trust Signals, FAQ, CTA Section, and Tabs may apply. Verify source dates, plan and feature accuracy, trademark use, mobile tables, fair criteria, canonical metadata, and links to deeper migration or product pages.

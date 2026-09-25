@@ -14,4 +14,4 @@ Explain one shipped change with release date, affected users, availability, limi
 
 ## Components And Verification
 
-List, Card, Tabs/Accordion, Top Banner, Breadcrumb, Social Share, and CTA may apply. Use a real release content source. Verify ordering, draft exclusion, dates and time zones, categories, pagination, canonical URLs, feeds when present, media, product availability, and links from Index to Entry.
+List, Card, Tabs or Accordion, Announcement Banner, Breadcrumb, Social Share, and CTA Section may apply. Use a real release content source. Verify ordering, draft exclusion, dates and time zones, categories, pagination, canonical URLs, feeds when present, media, product availability, and links from Index to Entry.

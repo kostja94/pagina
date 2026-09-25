@@ -14,4 +14,4 @@ Build first-party by default and consume existing monitoring or incident data. A
 
 ## Components And Verification
 
-Top Banner, List, Card, Tabs, and Navigation may apply. Verify stale and unavailable data, partial outage, maintenance, time zones, refresh behavior, accessible non-color status, canonical origin, subscription truth, and failure of the status source itself.
+Announcement Banner, List, Card, Tabs, and Navigation may apply. Verify stale and unavailable data, partial outage, maintenance, time zones, refresh behavior, accessible non-color status, canonical origin, subscription truth, and failure of the status source itself.

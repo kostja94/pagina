@@ -17,4 +17,4 @@ Services describe work delivered for or with a customer. Solutions package produ
 
 ## Components And Verification
 
-Hero, Navigation, Grid, Card, How-to, Comparison Table, Testimonials, Trust Signals, FAQ, Contact path, and CTA may apply. Verify scope, qualifications, geographic availability, process ownership, timelines, unsupported outcome claims, lead routing, consent, proof attribution, and links to related use cases and case studies.
+Hero, Navigation, Grid, Card, How-to, Comparison Table, Testimonials, Trust Signals, FAQ, Contact path, and CTA Section may apply. Verify scope, qualifications, geographic availability, process ownership, timelines, unsupported outcome claims, lead routing, consent, proof attribution, and links to related use cases and case studies.

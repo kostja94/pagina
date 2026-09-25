@@ -14,4 +14,4 @@ Define one source system, prerequisites, field and capability mapping, automatic
 
 ## Components And Verification
 
-Grid, Card, Comparison Table, How-to Section, Tabs, FAQ, CTA, and Top Banner may apply. Require confirmed migration capability; never promise all-data migration. Verify sample exports or APIs, authentication, rate limits, duplicate behavior, media, redirects, validation, failure recovery, version differences, and current support ownership.
+Grid, Card, Comparison Table, How-to Section, Tabs, FAQ, CTA Section, and Announcement Banner may apply. Require confirmed migration capability; never promise all-data migration. Verify sample exports or APIs, authentication, rate limits, duplicate behavior, media, redirects, validation, failure recovery, version differences, and current support ownership.

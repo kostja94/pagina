@@ -20,7 +20,7 @@ SaaS commonly compares subscriptions; AI tools often require credits, generation
 
 ## Components
 
-Comparison Table and CTA are common implementation candidates, not mandatory source-code boundaries. Use disclosure for dense detail and keep mobile comparison usable without hiding decisive differences.
+Comparison Table and CTA Section are common implementation candidates, not mandatory source-code boundaries. Use disclosure for dense detail and keep mobile comparison usable without hiding decisive differences.
 
 ## Verify
 

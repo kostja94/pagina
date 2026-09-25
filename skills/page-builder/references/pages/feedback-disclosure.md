@@ -15,4 +15,4 @@ Feedback is not a substitute for support, incident reporting, appeals, or legall
 
 ## Components And Verification
 
-Task Input or Form, Modal, FAQ, Top Banner, Breadcrumb, and Contact path may apply. Verify consent, privacy, moderation, abuse and sensitive data handling, receipts, routing, accessibility, effective dates, plain-language visibility, contextual placement, legal review requirements, metadata, and indexing policy.
+Task Input or Form, Modal, FAQ, Announcement Banner, Breadcrumb, and Contact path may apply. Verify consent, privacy, moderation, abuse and sensitive data handling, receipts, routing, accessibility, effective dates, plain-language visibility, contextual placement, legal review requirements, metadata, and indexing policy.

@@ -14,4 +14,4 @@ Use approved roadmap items and states. Pagina may add a lightweight data source 
 
 ## Components And Verification
 
-Grid, List, Card, Tabs, Top Banner, Modal, and CTA may apply. Verify stale items, status transitions, confidential exclusions, mobile columns, dates versus non-date commitments, feedback behavior, and Roadmap-to-Changelog links.
+Grid, List, Card, Tabs, Announcement Banner, Modal, and CTA Section may apply. Verify stale items, status transitions, confidential exclusions, mobile columns, dates versus non-date commitments, feedback behavior, and Roadmap-to-Changelog links.

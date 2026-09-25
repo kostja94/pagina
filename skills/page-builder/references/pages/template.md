@@ -15,4 +15,4 @@ A Template is a reusable starting artifact. It is not automatically a programmat
 
 ## Components And Verification
 
-Grid, Card, Task Input, Carousel, Tabs, How-to, FAQ, Breadcrumb, CTA, and previews may apply. Verify filters, previews, source files, compatibility, licenses, pricing, versioning, copy/customize/download behavior, authentication transitions, empty states, related templates, metadata, and duplicate or thin variants.
+Grid, Card, Task Input, Carousel, Tabs, How-to, FAQ, Breadcrumb, CTA Section, and previews may apply. Verify filters, previews, source files, compatibility, licenses, pricing, versioning, copy/customize/download behavior, authentication transitions, empty states, related templates, metadata, and duplicate or thin variants.
