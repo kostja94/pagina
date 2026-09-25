@@ -1,6 +1,6 @@
 {
   "generated_from": "pages.json#component_recommendations",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "components": [
     {
       "component": "agent-workspace",
@@ -14,20 +14,35 @@
     {
       "component": "article-layout",
       "core": [
-        "article"
+        "article",
+        "live-coverage",
+        "news-article"
       ],
       "common": [],
-      "conditional": [],
+      "conditional": [
+        "learning-dashboard",
+        "lesson"
+      ],
       "discouraged": []
     },
     {
       "component": "author-bio",
-      "core": [],
+      "core": [
+        "live-coverage",
+        "news-article"
+      ],
       "common": [
         "about",
         "article"
       ],
       "conditional": [
+        "community-home",
+        "community-thread",
+        "community-topic-index",
+        "member-profile",
+        "portfolio-index",
+        "portfolio-project",
+        "profile-resume",
         "resource-detail"
       ],
       "discouraged": []
@@ -50,15 +65,22 @@
       ],
       "common": [
         "article",
+        "author-page",
+        "certificate",
         "changelog-entry",
+        "course-detail",
         "disclosure",
         "glossary-term",
+        "learning-dashboard",
         "legal-policy",
+        "lesson",
+        "listing-detail",
         "media-kit",
         "press-release",
         "resource-detail"
       ],
       "conditional": [
+        "commerce-product",
         "template-detail"
       ],
       "discouraged": []
@@ -69,29 +91,43 @@
         "template-hub"
       ],
       "common": [
+        "author-page",
         "blog-index",
         "careers",
         "case-study-index",
+        "certificate",
         "changelog-index",
         "collection",
+        "commerce-catalog",
         "contact",
+        "course-detail",
         "dashboard",
         "detail",
         "docs-home",
         "feature-hub",
         "integration-index",
+        "listing-detail",
         "migration-index",
+        "portfolio-index",
+        "portfolio-project",
         "product-hub",
+        "profile-resume",
         "resource-category",
         "resource-hub",
         "roadmap",
         "service-hub",
         "solution-hub",
         "tool-hub",
-        "use-case-index"
+        "use-case-index",
+        "wishlist"
       ],
       "conditional": [
         "404",
+        "course-catalog",
+        "directory-index",
+        "marketplace-home",
+        "publication-home",
+        "publication-topic",
         "status"
       ],
       "discouraged": []
@@ -100,18 +136,34 @@
       "component": "carousel",
       "core": [],
       "common": [
+        "commerce-product",
         "template-detail"
       ],
-      "conditional": [],
+      "conditional": [
+        "author-page",
+        "certificate",
+        "course-detail",
+        "listing-detail",
+        "portfolio-index",
+        "portfolio-project",
+        "profile-resume"
+      ],
       "discouraged": [
         "404",
         "article",
+        "assessment",
         "auth",
+        "cart",
+        "checkout",
+        "community-compose",
         "create-edit",
         "dashboard",
         "detail",
         "disclosure",
         "landing",
+        "learning-dashboard",
+        "lesson",
+        "listing-submission",
         "pricing",
         "settings"
       ]
@@ -153,8 +205,23 @@
       "discouraged": []
     },
     {
+      "component": "conversation",
+      "core": [],
+      "common": [
+        "community-home",
+        "community-thread",
+        "community-topic-index",
+        "member-profile"
+      ],
+      "conditional": [],
+      "discouraged": []
+    },
+    {
       "component": "cta",
       "core": [
+        "cart",
+        "checkout",
+        "commerce-product",
         "contest",
         "event",
         "landing",
@@ -200,13 +267,22 @@
       ],
       "conditional": [
         "about",
+        "author-page",
+        "certificate",
         "changelog-entry",
+        "course-detail",
         "faq",
         "feature-hub",
         "glossary-term",
+        "listing-detail",
         "media-kit",
+        "order-confirmation",
+        "order-tracking",
+        "portfolio-index",
+        "portfolio-project",
         "press-release",
         "product-hub",
+        "profile-resume",
         "roadmap",
         "tool-detail"
       ],
@@ -224,8 +300,13 @@
         "affiliate-program",
         "api",
         "article",
+        "assessment",
         "browser-extension",
+        "cart",
+        "checkout",
         "cli",
+        "commerce-product",
+        "community-compose",
         "comparison",
         "connector-detail",
         "contest",
@@ -240,10 +321,13 @@
         "integration-detail",
         "job-detail",
         "landing",
+        "listing-submission",
         "mcp",
         "migration-detail",
         "migration-index",
         "mobile-app",
+        "order-confirmation",
+        "order-tracking",
         "partner-program",
         "plugin-detail",
         "product-detail",
@@ -285,21 +369,31 @@
         "careers",
         "case-study-index",
         "collection",
+        "commerce-catalog",
+        "course-catalog",
+        "directory-index",
         "docs-home",
         "feature-hub",
         "glossary-index",
         "integration-index",
+        "marketplace-home",
         "migration-index",
+        "portfolio-index",
+        "portfolio-project",
         "press-coverage",
         "press-hub",
         "product-hub",
+        "profile-resume",
+        "publication-home",
+        "publication-topic",
         "resource-category",
         "resource-hub",
         "roadmap",
         "service-hub",
         "solution-hub",
         "tool-hub",
-        "use-case-index"
+        "use-case-index",
+        "wishlist"
       ],
       "conditional": [],
       "discouraged": []
@@ -329,8 +423,11 @@
         "mobile-app",
         "partner-program",
         "plugin-detail",
+        "portfolio-index",
+        "portfolio-project",
         "product-detail",
         "product-hub",
+        "profile-resume",
         "promotion",
         "referral-program",
         "service-detail",
@@ -348,12 +445,18 @@
         "api-reference",
         "auth",
         "collection",
+        "community-home",
+        "community-thread",
+        "community-topic-index",
         "create-edit",
         "dashboard",
         "detail",
         "docs-article",
         "docs-home",
         "feedback",
+        "member-profile",
+        "order-confirmation",
+        "order-tracking",
         "settings"
       ]
     },
@@ -364,8 +467,10 @@
         "affiliate-program",
         "api",
         "api-reference",
+        "assessment",
         "browser-extension",
         "cli",
+        "community-compose",
         "connector-detail",
         "creator-program",
         "desktop-app",
@@ -373,6 +478,7 @@
         "feature-detail",
         "integration-detail",
         "job-detail",
+        "listing-submission",
         "mcp",
         "migration-detail",
         "mobile-app",
@@ -392,7 +498,11 @@
         "contest",
         "event",
         "glossary-term",
+        "learning-dashboard",
+        "lesson",
         "media-kit",
+        "order-confirmation",
+        "order-tracking",
         "press-release",
         "promotion",
         "waitlist"
@@ -406,9 +516,22 @@
         "collection"
       ],
       "common": [
+        "cart",
+        "checkout",
+        "community-home",
+        "community-thread",
+        "community-topic-index",
+        "course-catalog",
+        "directory-index",
         "glossary-index",
+        "marketplace-home",
+        "member-profile",
+        "order-confirmation",
+        "order-tracking",
         "press-coverage",
         "press-hub",
+        "publication-home",
+        "publication-topic",
         "resource-category",
         "roadmap",
         "status"
@@ -424,6 +547,9 @@
       "core": [],
       "common": [],
       "conditional": [
+        "portfolio-index",
+        "portfolio-project",
+        "profile-resume",
         "template-hub"
       ],
       "discouraged": []
@@ -433,13 +559,24 @@
       "core": [],
       "common": [],
       "conditional": [
+        "assessment",
         "auth",
+        "cart",
+        "checkout",
+        "community-compose",
+        "community-home",
+        "community-thread",
+        "community-topic-index",
         "contest",
         "create-edit",
         "detail",
         "event",
         "feedback",
         "gated-resource",
+        "learning-dashboard",
+        "lesson",
+        "listing-submission",
+        "member-profile",
         "promotion",
         "roadmap",
         "settings",
@@ -453,24 +590,39 @@
     {
       "component": "navigation-menu",
       "core": [
+        "community-home",
+        "community-thread",
+        "community-topic-index",
         "docs-home",
         "feature-hub",
         "homepage",
+        "learning-dashboard",
+        "lesson",
+        "member-profile",
         "product-hub",
         "settings"
       ],
       "common": [
         "404",
         "case-study-index",
+        "commerce-catalog",
+        "course-catalog",
         "dashboard",
+        "directory-index",
         "faq",
         "glossary-index",
         "integration-index",
+        "live-coverage",
+        "marketplace-home",
+        "news-article",
         "press-coverage",
         "press-hub",
+        "publication-home",
+        "publication-topic",
         "resource-hub",
         "template-hub",
-        "use-case-index"
+        "use-case-index",
+        "wishlist"
       ],
       "conditional": [
         "blog-index",
@@ -489,6 +641,8 @@
         "blog-index",
         "homepage",
         "landing",
+        "live-coverage",
+        "news-article",
         "resource-detail",
         "resource-hub"
       ],
@@ -503,12 +657,25 @@
       ],
       "common": [
         "collection",
+        "commerce-catalog",
+        "community-home",
+        "community-thread",
+        "community-topic-index",
         "create-edit",
         "dashboard",
         "detail",
-        "settings"
+        "learning-dashboard",
+        "lesson",
+        "member-profile",
+        "settings",
+        "wishlist"
       ],
       "conditional": [
+        "course-catalog",
+        "directory-index",
+        "marketplace-home",
+        "publication-home",
+        "publication-topic",
         "resource-category"
       ],
       "discouraged": []
@@ -516,7 +683,10 @@
     {
       "component": "social-share",
       "core": [],
-      "common": [],
+      "common": [
+        "live-coverage",
+        "news-article"
+      ],
       "conditional": [
         "article",
         "case-study-detail",
@@ -542,17 +712,23 @@
         "article",
         "disclosure",
         "glossary-term",
+        "learning-dashboard",
         "legal-policy",
+        "lesson",
         "media-kit",
         "press-release"
       ],
-      "conditional": [],
+      "conditional": [
+        "live-coverage",
+        "news-article"
+      ],
       "discouraged": []
     },
     {
       "component": "tabs-accordion",
       "core": [],
       "common": [
+        "commerce-product",
         "create-edit",
         "detail",
         "settings"
@@ -565,16 +741,22 @@
         "changelog-index",
         "cli",
         "collection",
+        "commerce-catalog",
         "comparison",
         "connector-detail",
         "contact",
+        "course-catalog",
         "desktop-app",
+        "directory-index",
         "docs-article",
         "faq",
         "feature-detail",
         "glossary-index",
         "integration-detail",
         "integration-index",
+        "learning-dashboard",
+        "lesson",
+        "marketplace-home",
         "mcp",
         "migration-detail",
         "plugin-detail",
@@ -582,24 +764,37 @@
         "press-hub",
         "pricing",
         "product-detail",
+        "publication-home",
+        "publication-topic",
         "resource-category",
         "roadmap",
         "status",
         "template-detail",
         "template-hub",
         "tool-hub",
-        "use-case-index"
+        "use-case-index",
+        "wishlist"
       ],
       "discouraged": []
     },
     {
       "component": "task-input",
       "core": [
+        "assessment",
+        "commerce-catalog",
+        "community-compose",
         "docs-home",
         "feedback",
-        "tool-detail"
+        "listing-submission",
+        "tool-detail",
+        "wishlist"
       ],
       "common": [
+        "course-catalog",
+        "directory-index",
+        "marketplace-home",
+        "publication-home",
+        "publication-topic",
         "template-hub",
         "tool-hub"
       ],
@@ -607,6 +802,9 @@
         "404",
         "api-reference",
         "case-study-index",
+        "community-home",
+        "community-thread",
+        "community-topic-index",
         "contest",
         "docs-article",
         "event",
@@ -616,6 +814,9 @@
         "homepage",
         "integration-index",
         "landing",
+        "learning-dashboard",
+        "lesson",
+        "member-profile",
         "press-coverage",
         "press-hub",
         "product-hub",
@@ -634,11 +835,16 @@
       ],
       "conditional": [
         "about",
+        "author-page",
         "careers",
         "case-study-detail",
+        "certificate",
+        "commerce-product",
+        "course-detail",
         "creator-program",
         "homepage",
         "job-detail",
+        "listing-detail",
         "pricing",
         "service-detail",
         "service-hub",
@@ -657,15 +863,25 @@
       "common": [
         "contest",
         "event",
+        "order-confirmation",
+        "order-tracking",
         "promotion",
         "status",
         "waitlist"
       ],
       "conditional": [
+        "assessment",
         "blog-index",
+        "cart",
         "changelog-entry",
         "changelog-index",
+        "checkout",
         "collection",
+        "commerce-catalog",
+        "community-compose",
+        "community-home",
+        "community-thread",
+        "community-topic-index",
         "create-edit",
         "dashboard",
         "detail",
@@ -674,10 +890,15 @@
         "feedback",
         "integration-detail",
         "integration-index",
+        "listing-submission",
+        "live-coverage",
+        "member-profile",
         "migration-detail",
+        "news-article",
         "pricing",
         "roadmap",
-        "settings"
+        "settings",
+        "wishlist"
       ],
       "discouraged": []
     },
@@ -686,7 +907,10 @@
       "core": [],
       "common": [
         "about",
+        "cart",
         "case-study-detail",
+        "checkout",
+        "commerce-product",
         "comparison",
         "gated-resource",
         "homepage",
@@ -697,16 +921,20 @@
         "affiliate-program",
         "api",
         "auth",
+        "author-page",
         "browser-extension",
         "careers",
+        "certificate",
         "cli",
         "connector-detail",
         "contact",
+        "course-detail",
         "creator-program",
         "desktop-app",
         "feature-detail",
         "integration-detail",
         "job-detail",
+        "listing-detail",
         "mcp",
         "mobile-app",
         "partner-program",

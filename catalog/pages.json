@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/page-reference.schema.json",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "pages": [
     {
       "id": "homepage",
@@ -3275,6 +3275,1220 @@
       },
       "status": "available",
       "reference": "../skills/page-builder/references/pages/feedback-disclosure.md"
+    },
+    {
+      "id": "commerce-catalog",
+      "name": "Commerce Catalog",
+      "family": "commerce",
+      "mode": "catalog",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "ecommerce",
+          "relation": "core"
+        },
+        {
+          "archetype": "marketplace",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "task-input"
+        ],
+        "common": [
+          "navigation-menu",
+          "grid",
+          "card",
+          "sidebar"
+        ],
+        "conditional": [
+          "tabs-accordion",
+          "top-banner"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/commerce.md"
+    },
+    {
+      "id": "commerce-product",
+      "name": "Commerce Product Detail",
+      "family": "commerce",
+      "mode": "product",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "ecommerce",
+          "relation": "core"
+        },
+        {
+          "archetype": "marketplace",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "cta"
+        ],
+        "common": [
+          "carousel",
+          "tabs-accordion",
+          "trust-signals"
+        ],
+        "conditional": [
+          "faq-section",
+          "testimonials",
+          "breadcrumb"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/commerce.md"
+    },
+    {
+      "id": "cart",
+      "name": "Shopping Cart",
+      "family": "commerce",
+      "mode": "cart",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "ecommerce",
+          "relation": "core"
+        },
+        {
+          "archetype": "marketplace",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "cta"
+        ],
+        "common": [
+          "list",
+          "trust-signals"
+        ],
+        "conditional": [
+          "top-banner",
+          "modal",
+          "faq-section"
+        ],
+        "discouraged": [
+          "carousel"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/commerce.md"
+    },
+    {
+      "id": "checkout",
+      "name": "Checkout",
+      "family": "commerce",
+      "mode": "checkout",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "ecommerce",
+          "relation": "core"
+        },
+        {
+          "archetype": "marketplace",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "cta"
+        ],
+        "common": [
+          "list",
+          "trust-signals"
+        ],
+        "conditional": [
+          "top-banner",
+          "modal",
+          "faq-section"
+        ],
+        "discouraged": [
+          "carousel"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/commerce.md"
+    },
+    {
+      "id": "order-confirmation",
+      "name": "Order Confirmation",
+      "family": "commerce",
+      "mode": "confirmation",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "ecommerce",
+          "relation": "core"
+        },
+        {
+          "archetype": "marketplace",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "list",
+          "top-banner"
+        ],
+        "conditional": [
+          "howto-section",
+          "faq-section",
+          "cta"
+        ],
+        "discouraged": [
+          "hero"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/commerce.md"
+    },
+    {
+      "id": "order-tracking",
+      "name": "Order Tracking",
+      "family": "commerce",
+      "mode": "tracking",
+      "surfaces": [
+        "public-web",
+        "web-app"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "ecommerce",
+          "relation": "core"
+        },
+        {
+          "archetype": "marketplace",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "list",
+          "top-banner"
+        ],
+        "conditional": [
+          "howto-section",
+          "faq-section",
+          "cta"
+        ],
+        "discouraged": [
+          "hero"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/commerce.md"
+    },
+    {
+      "id": "wishlist",
+      "name": "Wishlist",
+      "family": "commerce",
+      "mode": "wishlist",
+      "surfaces": [
+        "public-web",
+        "web-app"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "ecommerce",
+          "relation": "core"
+        },
+        {
+          "archetype": "marketplace",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "task-input"
+        ],
+        "common": [
+          "navigation-menu",
+          "grid",
+          "card",
+          "sidebar"
+        ],
+        "conditional": [
+          "tabs-accordion",
+          "top-banner"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/commerce.md"
+    },
+    {
+      "id": "marketplace-home",
+      "name": "Marketplace Home",
+      "family": "marketplace-directory",
+      "mode": "home",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "marketplace",
+          "relation": "core"
+        },
+        {
+          "archetype": "directory",
+          "relation": "common"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "navigation-menu",
+          "task-input",
+          "grid",
+          "list"
+        ],
+        "conditional": [
+          "sidebar",
+          "tabs-accordion",
+          "card"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/marketplace-directory.md"
+    },
+    {
+      "id": "directory-index",
+      "name": "Directory Index",
+      "family": "marketplace-directory",
+      "mode": "index",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "marketplace",
+          "relation": "core"
+        },
+        {
+          "archetype": "directory",
+          "relation": "common"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "navigation-menu",
+          "task-input",
+          "grid",
+          "list"
+        ],
+        "conditional": [
+          "sidebar",
+          "tabs-accordion",
+          "card"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/marketplace-directory.md"
+    },
+    {
+      "id": "listing-detail",
+      "name": "Listing Detail",
+      "family": "marketplace-directory",
+      "mode": "detail",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "marketplace",
+          "relation": "core"
+        },
+        {
+          "archetype": "directory",
+          "relation": "common"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "breadcrumb",
+          "card"
+        ],
+        "conditional": [
+          "carousel",
+          "trust-signals",
+          "testimonials",
+          "cta"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/marketplace-directory.md"
+    },
+    {
+      "id": "listing-submission",
+      "name": "Listing Submission",
+      "family": "marketplace-directory",
+      "mode": "submission",
+      "surfaces": [
+        "public-web",
+        "web-app"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "marketplace",
+          "relation": "core"
+        },
+        {
+          "archetype": "directory",
+          "relation": "common"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "task-input"
+        ],
+        "common": [
+          "howto-section"
+        ],
+        "conditional": [
+          "modal",
+          "top-banner",
+          "faq-section"
+        ],
+        "discouraged": [
+          "carousel"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/marketplace-directory.md"
+    },
+    {
+      "id": "community-home",
+      "name": "Community Home",
+      "family": "community",
+      "mode": "home",
+      "surfaces": [
+        "public-web",
+        "web-app"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "community",
+          "relation": "core"
+        },
+        {
+          "archetype": "education",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "publication",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu"
+        ],
+        "common": [
+          "sidebar",
+          "conversation",
+          "list"
+        ],
+        "conditional": [
+          "task-input",
+          "author-bio",
+          "top-banner",
+          "modal"
+        ],
+        "discouraged": [
+          "hero"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/community.md"
+    },
+    {
+      "id": "community-topic-index",
+      "name": "Community Topic Index",
+      "family": "community",
+      "mode": "topic-index",
+      "surfaces": [
+        "public-web",
+        "web-app"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "community",
+          "relation": "core"
+        },
+        {
+          "archetype": "education",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "publication",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu"
+        ],
+        "common": [
+          "sidebar",
+          "conversation",
+          "list"
+        ],
+        "conditional": [
+          "task-input",
+          "author-bio",
+          "top-banner",
+          "modal"
+        ],
+        "discouraged": [
+          "hero"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/community.md"
+    },
+    {
+      "id": "community-thread",
+      "name": "Community Thread",
+      "family": "community",
+      "mode": "thread",
+      "surfaces": [
+        "public-web",
+        "web-app"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "community",
+          "relation": "core"
+        },
+        {
+          "archetype": "education",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "publication",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu"
+        ],
+        "common": [
+          "sidebar",
+          "conversation",
+          "list"
+        ],
+        "conditional": [
+          "task-input",
+          "author-bio",
+          "top-banner",
+          "modal"
+        ],
+        "discouraged": [
+          "hero"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/community.md"
+    },
+    {
+      "id": "member-profile",
+      "name": "Member Profile",
+      "family": "community",
+      "mode": "profile",
+      "surfaces": [
+        "public-web",
+        "web-app"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "community",
+          "relation": "core"
+        },
+        {
+          "archetype": "education",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "publication",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu"
+        ],
+        "common": [
+          "sidebar",
+          "conversation",
+          "list"
+        ],
+        "conditional": [
+          "task-input",
+          "author-bio",
+          "top-banner",
+          "modal"
+        ],
+        "discouraged": [
+          "hero"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/community.md"
+    },
+    {
+      "id": "community-compose",
+      "name": "Community Compose",
+      "family": "community",
+      "mode": "compose",
+      "surfaces": [
+        "web-app"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "community",
+          "relation": "core"
+        },
+        {
+          "archetype": "education",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "publication",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "task-input"
+        ],
+        "common": [
+          "howto-section"
+        ],
+        "conditional": [
+          "modal",
+          "top-banner",
+          "faq-section"
+        ],
+        "discouraged": [
+          "carousel"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/community.md"
+    },
+    {
+      "id": "course-catalog",
+      "name": "Course Catalog",
+      "family": "learning",
+      "mode": "catalog",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "education",
+          "relation": "core"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "navigation-menu",
+          "task-input",
+          "grid",
+          "list"
+        ],
+        "conditional": [
+          "sidebar",
+          "tabs-accordion",
+          "card"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/learning.md"
+    },
+    {
+      "id": "course-detail",
+      "name": "Course Detail",
+      "family": "learning",
+      "mode": "course",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "education",
+          "relation": "core"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "breadcrumb",
+          "card"
+        ],
+        "conditional": [
+          "carousel",
+          "trust-signals",
+          "testimonials",
+          "cta"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/learning.md"
+    },
+    {
+      "id": "learning-dashboard",
+      "name": "Learning Dashboard",
+      "family": "learning",
+      "mode": "dashboard",
+      "surfaces": [
+        "web-app"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "education",
+          "relation": "core"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu"
+        ],
+        "common": [
+          "sidebar",
+          "breadcrumb",
+          "table-of-contents"
+        ],
+        "conditional": [
+          "article-layout",
+          "tabs-accordion",
+          "howto-section",
+          "task-input",
+          "modal"
+        ],
+        "discouraged": [
+          "carousel"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/learning.md"
+    },
+    {
+      "id": "lesson",
+      "name": "Lesson Page",
+      "family": "learning",
+      "mode": "lesson",
+      "surfaces": [
+        "web-app"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "education",
+          "relation": "core"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu"
+        ],
+        "common": [
+          "sidebar",
+          "breadcrumb",
+          "table-of-contents"
+        ],
+        "conditional": [
+          "article-layout",
+          "tabs-accordion",
+          "howto-section",
+          "task-input",
+          "modal"
+        ],
+        "discouraged": [
+          "carousel"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/learning.md"
+    },
+    {
+      "id": "assessment",
+      "name": "Assessment Page",
+      "family": "learning",
+      "mode": "assessment",
+      "surfaces": [
+        "web-app"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "education",
+          "relation": "core"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "task-input"
+        ],
+        "common": [
+          "howto-section"
+        ],
+        "conditional": [
+          "modal",
+          "top-banner",
+          "faq-section"
+        ],
+        "discouraged": [
+          "carousel"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/learning.md"
+    },
+    {
+      "id": "certificate",
+      "name": "Certificate Page",
+      "family": "learning",
+      "mode": "certificate",
+      "surfaces": [
+        "public-web",
+        "web-app"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "education",
+          "relation": "core"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "community",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "breadcrumb",
+          "card"
+        ],
+        "conditional": [
+          "carousel",
+          "trust-signals",
+          "testimonials",
+          "cta"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/learning.md"
+    },
+    {
+      "id": "publication-home",
+      "name": "Publication Home",
+      "family": "publication",
+      "mode": "home",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "news-media",
+          "relation": "core"
+        },
+        {
+          "archetype": "publication",
+          "relation": "core"
+        },
+        {
+          "archetype": "creator-business",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "navigation-menu",
+          "task-input",
+          "grid",
+          "list"
+        ],
+        "conditional": [
+          "sidebar",
+          "tabs-accordion",
+          "card"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/publication.md"
+    },
+    {
+      "id": "publication-topic",
+      "name": "Publication Topic",
+      "family": "publication",
+      "mode": "topic",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "news-media",
+          "relation": "core"
+        },
+        {
+          "archetype": "publication",
+          "relation": "core"
+        },
+        {
+          "archetype": "creator-business",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "navigation-menu",
+          "task-input",
+          "grid",
+          "list"
+        ],
+        "conditional": [
+          "sidebar",
+          "tabs-accordion",
+          "card"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/publication.md"
+    },
+    {
+      "id": "news-article",
+      "name": "News Article",
+      "family": "publication",
+      "mode": "article",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "news-media",
+          "relation": "core"
+        },
+        {
+          "archetype": "publication",
+          "relation": "core"
+        },
+        {
+          "archetype": "creator-business",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "article-layout",
+          "author-bio"
+        ],
+        "common": [
+          "navigation-menu",
+          "social-share"
+        ],
+        "conditional": [
+          "top-banner",
+          "table-of-contents",
+          "newsletter-signup"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/publication.md"
+    },
+    {
+      "id": "live-coverage",
+      "name": "Live Coverage",
+      "family": "publication",
+      "mode": "live",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "news-media",
+          "relation": "core"
+        },
+        {
+          "archetype": "publication",
+          "relation": "core"
+        },
+        {
+          "archetype": "creator-business",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [
+          "article-layout",
+          "author-bio"
+        ],
+        "common": [
+          "navigation-menu",
+          "social-share"
+        ],
+        "conditional": [
+          "top-banner",
+          "table-of-contents",
+          "newsletter-signup"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/publication.md"
+    },
+    {
+      "id": "author-page",
+      "name": "Author Page",
+      "family": "publication",
+      "mode": "author",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "news-media",
+          "relation": "core"
+        },
+        {
+          "archetype": "publication",
+          "relation": "core"
+        },
+        {
+          "archetype": "creator-business",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "breadcrumb",
+          "card"
+        ],
+        "conditional": [
+          "carousel",
+          "trust-signals",
+          "testimonials",
+          "cta"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/publication.md"
+    },
+    {
+      "id": "portfolio-index",
+      "name": "Portfolio Index",
+      "family": "portfolio",
+      "mode": "index",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "portfolio",
+          "relation": "core"
+        },
+        {
+          "archetype": "creator-business",
+          "relation": "common"
+        },
+        {
+          "archetype": "professional-services",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "hero",
+          "grid",
+          "card"
+        ],
+        "conditional": [
+          "masonry",
+          "carousel",
+          "author-bio",
+          "cta"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/portfolio.md"
+    },
+    {
+      "id": "portfolio-project",
+      "name": "Portfolio Project",
+      "family": "portfolio",
+      "mode": "project",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "portfolio",
+          "relation": "core"
+        },
+        {
+          "archetype": "creator-business",
+          "relation": "common"
+        },
+        {
+          "archetype": "professional-services",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "hero",
+          "grid",
+          "card"
+        ],
+        "conditional": [
+          "masonry",
+          "carousel",
+          "author-bio",
+          "cta"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/portfolio.md"
+    },
+    {
+      "id": "profile-resume",
+      "name": "Profile Or Resume",
+      "family": "portfolio",
+      "mode": "profile",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "portfolio",
+          "relation": "core"
+        },
+        {
+          "archetype": "creator-business",
+          "relation": "common"
+        },
+        {
+          "archetype": "professional-services",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "hero",
+          "grid",
+          "card"
+        ],
+        "conditional": [
+          "masonry",
+          "carousel",
+          "author-bio",
+          "cta"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/portfolio.md"
     }
   ]
 }
