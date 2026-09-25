@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/page-reference.schema.json",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "pages": [
     {
       "id": "homepage",
@@ -50,7 +50,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/homepage.md"
+      "reference": "../skills/page-builder/references/pages/homepage.md",
+      "primary_function": "brand",
+      "secondary_functions": [
+        "acquisition",
+        "product-education"
+      ]
     },
     {
       "id": "pricing",
@@ -100,7 +105,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/pricing.md"
+      "reference": "../skills/page-builder/references/pages/pricing.md",
+      "primary_function": "conversion",
+      "secondary_functions": [
+        "sales-enablement",
+        "product-education"
+      ]
     },
     {
       "id": "landing",
@@ -151,7 +161,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/landing.md"
+      "reference": "../skills/page-builder/references/pages/landing.md",
+      "primary_function": "acquisition",
+      "secondary_functions": [
+        "conversion",
+        "brand"
+      ]
     },
     {
       "id": "blog-index",
@@ -194,7 +209,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/blog-index.md"
+      "reference": "../skills/page-builder/references/pages/blog-index.md",
+      "primary_function": "content-distribution",
+      "secondary_functions": [
+        "seo-discovery",
+        "brand"
+      ]
     },
     {
       "id": "article",
@@ -240,7 +260,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/article.md"
+      "reference": "../skills/page-builder/references/pages/article.md",
+      "primary_function": "content-distribution",
+      "secondary_functions": [
+        "seo-discovery",
+        "brand"
+      ]
     },
     {
       "id": "dashboard",
@@ -291,7 +316,11 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/dashboard.md"
+      "reference": "../skills/page-builder/references/pages/dashboard.md",
+      "primary_function": "product-operation",
+      "secondary_functions": [
+        "product-education"
+      ]
     },
     {
       "id": "collection",
@@ -340,7 +369,9 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/collection.md"
+      "reference": "../skills/page-builder/references/pages/collection.md",
+      "primary_function": "product-operation",
+      "secondary_functions": []
     },
     {
       "id": "detail",
@@ -391,7 +422,9 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/detail.md"
+      "reference": "../skills/page-builder/references/pages/detail.md",
+      "primary_function": "product-operation",
+      "secondary_functions": []
     },
     {
       "id": "create-edit",
@@ -439,7 +472,9 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/create-edit.md"
+      "reference": "../skills/page-builder/references/pages/create-edit.md",
+      "primary_function": "product-operation",
+      "secondary_functions": []
     },
     {
       "id": "settings",
@@ -489,7 +524,11 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/settings.md"
+      "reference": "../skills/page-builder/references/pages/settings.md",
+      "primary_function": "product-operation",
+      "secondary_functions": [
+        "support"
+      ]
     },
     {
       "id": "404",
@@ -539,7 +578,11 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/404.md"
+      "reference": "../skills/page-builder/references/pages/404.md",
+      "primary_function": "support",
+      "secondary_functions": [
+        "trust"
+      ]
     },
     {
       "id": "about",
@@ -585,7 +628,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/about.md"
+      "reference": "../skills/page-builder/references/pages/about.md",
+      "primary_function": "brand",
+      "secondary_functions": [
+        "trust",
+        "corporate"
+      ]
     },
     {
       "id": "contact",
@@ -630,7 +678,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/contact.md"
+      "reference": "../skills/page-builder/references/pages/contact.md",
+      "primary_function": "support",
+      "secondary_functions": [
+        "acquisition",
+        "corporate"
+      ]
     },
     {
       "id": "faq",
@@ -677,7 +730,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/faq.md"
+      "reference": "../skills/page-builder/references/pages/faq.md",
+      "primary_function": "support",
+      "secondary_functions": [
+        "seo-discovery",
+        "product-education"
+      ]
     },
     {
       "id": "comparison",
@@ -720,7 +778,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/comparison.md"
+      "reference": "../skills/page-builder/references/pages/comparison.md",
+      "primary_function": "sales-enablement",
+      "secondary_functions": [
+        "seo-discovery",
+        "conversion"
+      ]
     },
     {
       "id": "auth",
@@ -765,7 +828,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/auth.md"
+      "reference": "../skills/page-builder/references/pages/auth.md",
+      "primary_function": "product-operation",
+      "secondary_functions": [
+        "trust",
+        "support"
+      ]
     },
     {
       "id": "status",
@@ -807,7 +875,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/status.md"
+      "reference": "../skills/page-builder/references/pages/status.md",
+      "primary_function": "trust",
+      "secondary_functions": [
+        "support",
+        "compliance"
+      ]
     },
     {
       "id": "changelog-index",
@@ -849,7 +922,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/changelog.md"
+      "reference": "../skills/page-builder/references/pages/changelog.md",
+      "primary_function": "content-distribution",
+      "secondary_functions": [
+        "product-education",
+        "trust"
+      ]
     },
     {
       "id": "changelog-entry",
@@ -890,7 +968,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/changelog.md"
+      "reference": "../skills/page-builder/references/pages/changelog.md",
+      "primary_function": "content-distribution",
+      "secondary_functions": [
+        "product-education",
+        "trust"
+      ]
     },
     {
       "id": "roadmap",
@@ -934,7 +1017,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/roadmap.md"
+      "reference": "../skills/page-builder/references/pages/roadmap.md",
+      "primary_function": "ecosystem",
+      "secondary_functions": [
+        "product-education",
+        "community"
+      ]
     },
     {
       "id": "legal-policy",
@@ -979,7 +1067,11 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/legal-policy.md"
+      "reference": "../skills/page-builder/references/pages/legal-policy.md",
+      "primary_function": "compliance",
+      "secondary_functions": [
+        "trust"
+      ]
     },
     {
       "id": "api",
@@ -1019,7 +1111,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/product-interface.md"
+      "reference": "../skills/page-builder/references/pages/product-interface.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "acquisition",
+        "ecosystem"
+      ]
     },
     {
       "id": "desktop-app",
@@ -1063,7 +1160,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/product-interface.md"
+      "reference": "../skills/page-builder/references/pages/product-interface.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "acquisition",
+        "ecosystem"
+      ]
     },
     {
       "id": "mobile-app",
@@ -1106,7 +1208,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/product-interface.md"
+      "reference": "../skills/page-builder/references/pages/product-interface.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "acquisition",
+        "ecosystem"
+      ]
     },
     {
       "id": "browser-extension",
@@ -1146,7 +1253,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/product-interface.md"
+      "reference": "../skills/page-builder/references/pages/product-interface.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "acquisition",
+        "ecosystem"
+      ]
     },
     {
       "id": "mcp",
@@ -1186,7 +1298,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/product-interface.md"
+      "reference": "../skills/page-builder/references/pages/product-interface.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "acquisition",
+        "ecosystem"
+      ]
     },
     {
       "id": "cli",
@@ -1226,7 +1343,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/product-interface.md"
+      "reference": "../skills/page-builder/references/pages/product-interface.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "acquisition",
+        "ecosystem"
+      ]
     },
     {
       "id": "startup-program",
@@ -1266,7 +1388,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/program.md"
+      "reference": "../skills/page-builder/references/pages/program.md",
+      "primary_function": "ecosystem",
+      "secondary_functions": [
+        "acquisition",
+        "brand"
+      ]
     },
     {
       "id": "student-program",
@@ -1305,7 +1432,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/program.md"
+      "reference": "../skills/page-builder/references/pages/program.md",
+      "primary_function": "ecosystem",
+      "secondary_functions": [
+        "acquisition",
+        "brand"
+      ]
     },
     {
       "id": "creator-program",
@@ -1349,7 +1481,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/program.md"
+      "reference": "../skills/page-builder/references/pages/program.md",
+      "primary_function": "ecosystem",
+      "secondary_functions": [
+        "acquisition",
+        "brand"
+      ]
     },
     {
       "id": "affiliate-program",
@@ -1389,7 +1526,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/program.md"
+      "reference": "../skills/page-builder/references/pages/program.md",
+      "primary_function": "ecosystem",
+      "secondary_functions": [
+        "acquisition",
+        "brand"
+      ]
     },
     {
       "id": "referral-program",
@@ -1432,7 +1574,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/program.md"
+      "reference": "../skills/page-builder/references/pages/program.md",
+      "primary_function": "ecosystem",
+      "secondary_functions": [
+        "acquisition",
+        "brand"
+      ]
     },
     {
       "id": "partner-program",
@@ -1476,7 +1623,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/program.md"
+      "reference": "../skills/page-builder/references/pages/program.md",
+      "primary_function": "ecosystem",
+      "secondary_functions": [
+        "acquisition",
+        "brand"
+      ]
     },
     {
       "id": "migration-index",
@@ -1518,7 +1670,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/migration.md"
+      "reference": "../skills/page-builder/references/pages/migration.md",
+      "primary_function": "sales-enablement",
+      "secondary_functions": [
+        "seo-discovery",
+        "product-education"
+      ]
     },
     {
       "id": "migration-detail",
@@ -1561,7 +1718,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/migration.md"
+      "reference": "../skills/page-builder/references/pages/migration.md",
+      "primary_function": "sales-enablement",
+      "secondary_functions": [
+        "seo-discovery",
+        "product-education"
+      ]
     },
     {
       "id": "resource-hub",
@@ -1603,7 +1765,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/resource.md"
+      "reference": "../skills/page-builder/references/pages/resource.md",
+      "primary_function": "content-distribution",
+      "secondary_functions": [
+        "seo-discovery",
+        "acquisition"
+      ]
     },
     {
       "id": "resource-category",
@@ -1645,7 +1812,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/resource.md"
+      "reference": "../skills/page-builder/references/pages/resource.md",
+      "primary_function": "content-distribution",
+      "secondary_functions": [
+        "seo-discovery",
+        "acquisition"
+      ]
     },
     {
       "id": "resource-detail",
@@ -1687,7 +1859,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/resource.md"
+      "reference": "../skills/page-builder/references/pages/resource.md",
+      "primary_function": "content-distribution",
+      "secondary_functions": [
+        "seo-discovery",
+        "acquisition"
+      ]
     },
     {
       "id": "gated-resource",
@@ -1728,7 +1905,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/resource.md"
+      "reference": "../skills/page-builder/references/pages/resource.md",
+      "primary_function": "content-distribution",
+      "secondary_functions": [
+        "seo-discovery",
+        "acquisition"
+      ]
     },
     {
       "id": "use-case-index",
@@ -1770,7 +1952,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/use-case.md"
+      "reference": "../skills/page-builder/references/pages/use-case.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "seo-discovery",
+        "sales-enablement"
+      ]
     },
     {
       "id": "use-case-detail",
@@ -1814,7 +2001,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/use-case.md"
+      "reference": "../skills/page-builder/references/pages/use-case.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "seo-discovery",
+        "sales-enablement"
+      ]
     },
     {
       "id": "integration-index",
@@ -1857,7 +2049,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/integration.md"
+      "reference": "../skills/page-builder/references/pages/integration.md",
+      "primary_function": "ecosystem",
+      "secondary_functions": [
+        "product-education",
+        "seo-discovery"
+      ]
     },
     {
       "id": "integration-detail",
@@ -1898,7 +2095,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/integration.md"
+      "reference": "../skills/page-builder/references/pages/integration.md",
+      "primary_function": "ecosystem",
+      "secondary_functions": [
+        "product-education",
+        "seo-discovery"
+      ]
     },
     {
       "id": "plugin-detail",
@@ -1938,7 +2140,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/integration.md"
+      "reference": "../skills/page-builder/references/pages/integration.md",
+      "primary_function": "ecosystem",
+      "secondary_functions": [
+        "product-education",
+        "seo-discovery"
+      ]
     },
     {
       "id": "connector-detail",
@@ -1982,7 +2189,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/integration.md"
+      "reference": "../skills/page-builder/references/pages/integration.md",
+      "primary_function": "ecosystem",
+      "secondary_functions": [
+        "product-education",
+        "seo-discovery"
+      ]
     },
     {
       "id": "case-study-index",
@@ -2024,7 +2236,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/case-study.md"
+      "reference": "../skills/page-builder/references/pages/case-study.md",
+      "primary_function": "sales-enablement",
+      "secondary_functions": [
+        "trust",
+        "seo-discovery"
+      ]
     },
     {
       "id": "case-study-detail",
@@ -2067,7 +2284,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/case-study.md"
+      "reference": "../skills/page-builder/references/pages/case-study.md",
+      "primary_function": "sales-enablement",
+      "secondary_functions": [
+        "trust",
+        "seo-discovery"
+      ]
     },
     {
       "id": "product-hub",
@@ -2108,7 +2330,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/product-capability.md"
+      "reference": "../skills/page-builder/references/pages/product-capability.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "seo-discovery",
+        "conversion"
+      ]
     },
     {
       "id": "product-detail",
@@ -2148,7 +2375,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/product-capability.md"
+      "reference": "../skills/page-builder/references/pages/product-capability.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "seo-discovery",
+        "conversion"
+      ]
     },
     {
       "id": "feature-hub",
@@ -2189,7 +2421,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/product-capability.md"
+      "reference": "../skills/page-builder/references/pages/product-capability.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "seo-discovery",
+        "conversion"
+      ]
     },
     {
       "id": "feature-detail",
@@ -2229,7 +2466,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/product-capability.md"
+      "reference": "../skills/page-builder/references/pages/product-capability.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "seo-discovery",
+        "conversion"
+      ]
     },
     {
       "id": "service-hub",
@@ -2268,7 +2510,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/service-solution.md"
+      "reference": "../skills/page-builder/references/pages/service-solution.md",
+      "primary_function": "sales-enablement",
+      "secondary_functions": [
+        "product-education",
+        "conversion"
+      ]
     },
     {
       "id": "service-detail",
@@ -2307,7 +2554,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/service-solution.md"
+      "reference": "../skills/page-builder/references/pages/service-solution.md",
+      "primary_function": "sales-enablement",
+      "secondary_functions": [
+        "product-education",
+        "conversion"
+      ]
     },
     {
       "id": "solution-hub",
@@ -2346,7 +2598,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/service-solution.md"
+      "reference": "../skills/page-builder/references/pages/service-solution.md",
+      "primary_function": "sales-enablement",
+      "secondary_functions": [
+        "product-education",
+        "conversion"
+      ]
     },
     {
       "id": "solution-detail",
@@ -2385,7 +2642,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/service-solution.md"
+      "reference": "../skills/page-builder/references/pages/service-solution.md",
+      "primary_function": "sales-enablement",
+      "secondary_functions": [
+        "product-education",
+        "conversion"
+      ]
     },
     {
       "id": "template-hub",
@@ -2429,7 +2691,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/template.md"
+      "reference": "../skills/page-builder/references/pages/template.md",
+      "primary_function": "acquisition",
+      "secondary_functions": [
+        "seo-discovery",
+        "product-education"
+      ]
     },
     {
       "id": "template-detail",
@@ -2474,7 +2741,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/template.md"
+      "reference": "../skills/page-builder/references/pages/template.md",
+      "primary_function": "acquisition",
+      "secondary_functions": [
+        "seo-discovery",
+        "product-education"
+      ]
     },
     {
       "id": "tool-hub",
@@ -2512,7 +2784,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/tool.md"
+      "reference": "../skills/page-builder/references/pages/tool.md",
+      "primary_function": "acquisition",
+      "secondary_functions": [
+        "seo-discovery",
+        "product-education"
+      ]
     },
     {
       "id": "tool-detail",
@@ -2552,7 +2829,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/tool.md"
+      "reference": "../skills/page-builder/references/pages/tool.md",
+      "primary_function": "acquisition",
+      "secondary_functions": [
+        "seo-discovery",
+        "product-education"
+      ]
     },
     {
       "id": "docs-home",
@@ -2598,7 +2880,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/documentation.md"
+      "reference": "../skills/page-builder/references/pages/documentation.md",
+      "primary_function": "support",
+      "secondary_functions": [
+        "product-education",
+        "seo-discovery"
+      ]
     },
     {
       "id": "docs-article",
@@ -2644,7 +2931,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/documentation.md"
+      "reference": "../skills/page-builder/references/pages/documentation.md",
+      "primary_function": "support",
+      "secondary_functions": [
+        "product-education",
+        "seo-discovery"
+      ]
     },
     {
       "id": "api-reference",
@@ -2690,7 +2982,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/documentation.md"
+      "reference": "../skills/page-builder/references/pages/documentation.md",
+      "primary_function": "support",
+      "secondary_functions": [
+        "product-education",
+        "seo-discovery"
+      ]
     },
     {
       "id": "glossary-index",
@@ -2732,7 +3029,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/documentation.md"
+      "reference": "../skills/page-builder/references/pages/documentation.md",
+      "primary_function": "seo-discovery",
+      "secondary_functions": [
+        "product-education",
+        "support"
+      ]
     },
     {
       "id": "glossary-term",
@@ -2774,7 +3076,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/documentation.md"
+      "reference": "../skills/page-builder/references/pages/documentation.md",
+      "primary_function": "seo-discovery",
+      "secondary_functions": [
+        "product-education",
+        "support"
+      ]
     },
     {
       "id": "careers",
@@ -2813,7 +3120,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/careers.md"
+      "reference": "../skills/page-builder/references/pages/careers.md",
+      "primary_function": "corporate",
+      "secondary_functions": [
+        "brand",
+        "acquisition"
+      ]
     },
     {
       "id": "job-detail",
@@ -2852,7 +3164,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/careers.md"
+      "reference": "../skills/page-builder/references/pages/careers.md",
+      "primary_function": "corporate",
+      "secondary_functions": [
+        "brand",
+        "acquisition"
+      ]
     },
     {
       "id": "press-hub",
@@ -2890,7 +3207,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/press.md"
+      "reference": "../skills/page-builder/references/pages/press.md",
+      "primary_function": "corporate",
+      "secondary_functions": [
+        "brand",
+        "content-distribution"
+      ]
     },
     {
       "id": "media-kit",
@@ -2928,7 +3250,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/press.md"
+      "reference": "../skills/page-builder/references/pages/press.md",
+      "primary_function": "corporate",
+      "secondary_functions": [
+        "brand",
+        "content-distribution"
+      ]
     },
     {
       "id": "press-coverage",
@@ -2966,7 +3293,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/press.md"
+      "reference": "../skills/page-builder/references/pages/press.md",
+      "primary_function": "corporate",
+      "secondary_functions": [
+        "brand",
+        "content-distribution"
+      ]
     },
     {
       "id": "press-release",
@@ -3004,7 +3336,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/press.md"
+      "reference": "../skills/page-builder/references/pages/press.md",
+      "primary_function": "corporate",
+      "secondary_functions": [
+        "brand",
+        "content-distribution"
+      ]
     },
     {
       "id": "promotion",
@@ -3050,7 +3387,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/campaign.md"
+      "reference": "../skills/page-builder/references/pages/campaign.md",
+      "primary_function": "acquisition",
+      "secondary_functions": [
+        "conversion",
+        "brand"
+      ]
     },
     {
       "id": "contest",
@@ -3096,7 +3438,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/campaign.md"
+      "reference": "../skills/page-builder/references/pages/campaign.md",
+      "primary_function": "acquisition",
+      "secondary_functions": [
+        "conversion",
+        "brand"
+      ]
     },
     {
       "id": "event",
@@ -3142,7 +3489,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/campaign.md"
+      "reference": "../skills/page-builder/references/pages/campaign.md",
+      "primary_function": "acquisition",
+      "secondary_functions": [
+        "conversion",
+        "brand"
+      ]
     },
     {
       "id": "waitlist",
@@ -3188,7 +3540,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/campaign.md"
+      "reference": "../skills/page-builder/references/pages/campaign.md",
+      "primary_function": "acquisition",
+      "secondary_functions": [
+        "conversion",
+        "brand"
+      ]
     },
     {
       "id": "feedback",
@@ -3231,7 +3588,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/feedback-disclosure.md"
+      "reference": "../skills/page-builder/references/pages/feedback-disclosure.md",
+      "primary_function": "compliance",
+      "secondary_functions": [
+        "trust",
+        "community"
+      ]
     },
     {
       "id": "disclosure",
@@ -3274,7 +3636,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/feedback-disclosure.md"
+      "reference": "../skills/page-builder/references/pages/feedback-disclosure.md",
+      "primary_function": "compliance",
+      "secondary_functions": [
+        "trust",
+        "community"
+      ]
     },
     {
       "id": "commerce-catalog",
@@ -3311,7 +3678,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/commerce.md"
+      "reference": "../skills/page-builder/references/pages/commerce.md",
+      "primary_function": "transaction",
+      "secondary_functions": [
+        "conversion",
+        "support"
+      ]
     },
     {
       "id": "commerce-product",
@@ -3348,7 +3720,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/commerce.md"
+      "reference": "../skills/page-builder/references/pages/commerce.md",
+      "primary_function": "transaction",
+      "secondary_functions": [
+        "conversion",
+        "support"
+      ]
     },
     {
       "id": "cart",
@@ -3386,7 +3763,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/commerce.md"
+      "reference": "../skills/page-builder/references/pages/commerce.md",
+      "primary_function": "transaction",
+      "secondary_functions": [
+        "conversion",
+        "support"
+      ]
     },
     {
       "id": "checkout",
@@ -3424,7 +3806,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/commerce.md"
+      "reference": "../skills/page-builder/references/pages/commerce.md",
+      "primary_function": "transaction",
+      "secondary_functions": [
+        "conversion",
+        "support"
+      ]
     },
     {
       "id": "order-confirmation",
@@ -3460,7 +3847,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/commerce.md"
+      "reference": "../skills/page-builder/references/pages/commerce.md",
+      "primary_function": "transaction",
+      "secondary_functions": [
+        "conversion",
+        "support"
+      ]
     },
     {
       "id": "order-tracking",
@@ -3497,7 +3889,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/commerce.md"
+      "reference": "../skills/page-builder/references/pages/commerce.md",
+      "primary_function": "transaction",
+      "secondary_functions": [
+        "conversion",
+        "support"
+      ]
     },
     {
       "id": "wishlist",
@@ -3535,7 +3932,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/commerce.md"
+      "reference": "../skills/page-builder/references/pages/commerce.md",
+      "primary_function": "transaction",
+      "secondary_functions": [
+        "conversion",
+        "support"
+      ]
     },
     {
       "id": "marketplace-home",
@@ -3575,7 +3977,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/marketplace-directory.md"
+      "reference": "../skills/page-builder/references/pages/marketplace-directory.md",
+      "primary_function": "transaction",
+      "secondary_functions": [
+        "seo-discovery",
+        "ecosystem"
+      ]
     },
     {
       "id": "directory-index",
@@ -3615,7 +4022,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/marketplace-directory.md"
+      "reference": "../skills/page-builder/references/pages/marketplace-directory.md",
+      "primary_function": "transaction",
+      "secondary_functions": [
+        "seo-discovery",
+        "ecosystem"
+      ]
     },
     {
       "id": "listing-detail",
@@ -3654,7 +4066,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/marketplace-directory.md"
+      "reference": "../skills/page-builder/references/pages/marketplace-directory.md",
+      "primary_function": "transaction",
+      "secondary_functions": [
+        "seo-discovery",
+        "ecosystem"
+      ]
     },
     {
       "id": "listing-submission",
@@ -3696,7 +4113,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/marketplace-directory.md"
+      "reference": "../skills/page-builder/references/pages/marketplace-directory.md",
+      "primary_function": "transaction",
+      "secondary_functions": [
+        "seo-discovery",
+        "ecosystem"
+      ]
     },
     {
       "id": "community-home",
@@ -3741,7 +4163,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/community.md"
+      "reference": "../skills/page-builder/references/pages/community.md",
+      "primary_function": "community",
+      "secondary_functions": [
+        "content-distribution",
+        "support"
+      ]
     },
     {
       "id": "community-topic-index",
@@ -3786,7 +4213,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/community.md"
+      "reference": "../skills/page-builder/references/pages/community.md",
+      "primary_function": "community",
+      "secondary_functions": [
+        "content-distribution",
+        "support"
+      ]
     },
     {
       "id": "community-thread",
@@ -3831,7 +4263,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/community.md"
+      "reference": "../skills/page-builder/references/pages/community.md",
+      "primary_function": "community",
+      "secondary_functions": [
+        "content-distribution",
+        "support"
+      ]
     },
     {
       "id": "member-profile",
@@ -3876,7 +4313,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/community.md"
+      "reference": "../skills/page-builder/references/pages/community.md",
+      "primary_function": "community",
+      "secondary_functions": [
+        "content-distribution",
+        "support"
+      ]
     },
     {
       "id": "community-compose",
@@ -3917,7 +4359,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/community.md"
+      "reference": "../skills/page-builder/references/pages/community.md",
+      "primary_function": "community",
+      "secondary_functions": [
+        "content-distribution",
+        "support"
+      ]
     },
     {
       "id": "course-catalog",
@@ -3957,7 +4404,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/learning.md"
+      "reference": "../skills/page-builder/references/pages/learning.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "community",
+        "transaction"
+      ]
     },
     {
       "id": "course-detail",
@@ -3996,7 +4448,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/learning.md"
+      "reference": "../skills/page-builder/references/pages/learning.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "community",
+        "transaction"
+      ]
     },
     {
       "id": "learning-dashboard",
@@ -4041,7 +4498,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/learning.md"
+      "reference": "../skills/page-builder/references/pages/learning.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "community",
+        "transaction"
+      ]
     },
     {
       "id": "lesson",
@@ -4086,7 +4548,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/learning.md"
+      "reference": "../skills/page-builder/references/pages/learning.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "community",
+        "transaction"
+      ]
     },
     {
       "id": "assessment",
@@ -4127,7 +4594,12 @@
         ]
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/learning.md"
+      "reference": "../skills/page-builder/references/pages/learning.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "community",
+        "transaction"
+      ]
     },
     {
       "id": "certificate",
@@ -4167,7 +4639,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/learning.md"
+      "reference": "../skills/page-builder/references/pages/learning.md",
+      "primary_function": "product-education",
+      "secondary_functions": [
+        "community",
+        "transaction"
+      ]
     },
     {
       "id": "publication-home",
@@ -4207,7 +4684,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/publication.md"
+      "reference": "../skills/page-builder/references/pages/publication.md",
+      "primary_function": "content-distribution",
+      "secondary_functions": [
+        "seo-discovery",
+        "brand"
+      ]
     },
     {
       "id": "publication-topic",
@@ -4247,7 +4729,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/publication.md"
+      "reference": "../skills/page-builder/references/pages/publication.md",
+      "primary_function": "content-distribution",
+      "secondary_functions": [
+        "seo-discovery",
+        "brand"
+      ]
     },
     {
       "id": "news-article",
@@ -4288,7 +4775,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/publication.md"
+      "reference": "../skills/page-builder/references/pages/publication.md",
+      "primary_function": "content-distribution",
+      "secondary_functions": [
+        "seo-discovery",
+        "brand"
+      ]
     },
     {
       "id": "live-coverage",
@@ -4329,7 +4821,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/publication.md"
+      "reference": "../skills/page-builder/references/pages/publication.md",
+      "primary_function": "content-distribution",
+      "secondary_functions": [
+        "seo-discovery",
+        "brand"
+      ]
     },
     {
       "id": "author-page",
@@ -4368,7 +4865,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/publication.md"
+      "reference": "../skills/page-builder/references/pages/publication.md",
+      "primary_function": "content-distribution",
+      "secondary_functions": [
+        "seo-discovery",
+        "brand"
+      ]
     },
     {
       "id": "portfolio-index",
@@ -4408,7 +4910,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/portfolio.md"
+      "reference": "../skills/page-builder/references/pages/portfolio.md",
+      "primary_function": "brand",
+      "secondary_functions": [
+        "sales-enablement",
+        "seo-discovery"
+      ]
     },
     {
       "id": "portfolio-project",
@@ -4448,7 +4955,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/portfolio.md"
+      "reference": "../skills/page-builder/references/pages/portfolio.md",
+      "primary_function": "brand",
+      "secondary_functions": [
+        "sales-enablement",
+        "seo-discovery"
+      ]
     },
     {
       "id": "profile-resume",
@@ -4488,7 +5000,12 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/portfolio.md"
+      "reference": "../skills/page-builder/references/pages/portfolio.md",
+      "primary_function": "brand",
+      "secondary_functions": [
+        "sales-enablement",
+        "seo-discovery"
+      ]
     },
     {
       "id": "showcase",
@@ -4534,7 +5051,348 @@
         "discouraged": []
       },
       "status": "available",
-      "reference": "../skills/page-builder/references/pages/showcase.md"
+      "reference": "../skills/page-builder/references/pages/showcase.md",
+      "primary_function": "trust",
+      "secondary_functions": [
+        "community",
+        "product-education"
+      ]
+    },
+    {
+      "id": "trust-center",
+      "name": "Trust Center",
+      "family": "trust-security-compliance",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "operations-platform",
+          "relation": "common"
+        },
+        {
+          "archetype": "analytics-platform",
+          "relation": "common"
+        }
+      ],
+      "primary_function": "compliance",
+      "secondary_functions": [
+        "trust",
+        "sales-enablement"
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu",
+          "trust-signals"
+        ],
+        "common": [
+          "table-of-contents",
+          "faq-section",
+          "footer"
+        ],
+        "conditional": [
+          "comparison-table",
+          "task-input",
+          "top-banner"
+        ],
+        "discouraged": [
+          "carousel"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/trust-security-compliance.md"
+    },
+    {
+      "id": "security",
+      "name": "Security Page",
+      "family": "trust-security-compliance",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "operations-platform",
+          "relation": "common"
+        },
+        {
+          "archetype": "analytics-platform",
+          "relation": "common"
+        }
+      ],
+      "primary_function": "compliance",
+      "secondary_functions": [
+        "trust",
+        "sales-enablement"
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu",
+          "trust-signals"
+        ],
+        "common": [
+          "table-of-contents",
+          "faq-section",
+          "footer"
+        ],
+        "conditional": [
+          "comparison-table",
+          "task-input",
+          "top-banner"
+        ],
+        "discouraged": [
+          "carousel"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/trust-security-compliance.md"
+    },
+    {
+      "id": "compliance",
+      "name": "Compliance Page",
+      "family": "trust-security-compliance",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "operations-platform",
+          "relation": "common"
+        },
+        {
+          "archetype": "analytics-platform",
+          "relation": "common"
+        }
+      ],
+      "primary_function": "compliance",
+      "secondary_functions": [
+        "trust",
+        "sales-enablement"
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu",
+          "trust-signals"
+        ],
+        "common": [
+          "table-of-contents",
+          "faq-section",
+          "footer"
+        ],
+        "conditional": [
+          "comparison-table",
+          "task-input",
+          "top-banner"
+        ],
+        "discouraged": [
+          "carousel"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/trust-security-compliance.md"
+    },
+    {
+      "id": "privacy-center",
+      "name": "Privacy Center",
+      "family": "trust-security-compliance",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "operations-platform",
+          "relation": "common"
+        },
+        {
+          "archetype": "analytics-platform",
+          "relation": "common"
+        }
+      ],
+      "primary_function": "compliance",
+      "secondary_functions": [
+        "trust",
+        "sales-enablement"
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu",
+          "trust-signals"
+        ],
+        "common": [
+          "table-of-contents",
+          "faq-section",
+          "footer"
+        ],
+        "conditional": [
+          "comparison-table",
+          "task-input",
+          "top-banner"
+        ],
+        "discouraged": [
+          "carousel"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/trust-security-compliance.md"
+    },
+    {
+      "id": "subprocessor-list",
+      "name": "Subprocessor List",
+      "family": "trust-security-compliance",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "operations-platform",
+          "relation": "common"
+        },
+        {
+          "archetype": "analytics-platform",
+          "relation": "common"
+        }
+      ],
+      "primary_function": "compliance",
+      "secondary_functions": [
+        "trust",
+        "sales-enablement"
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu",
+          "trust-signals"
+        ],
+        "common": [
+          "table-of-contents",
+          "faq-section",
+          "footer"
+        ],
+        "conditional": [
+          "comparison-table",
+          "task-input",
+          "top-banner"
+        ],
+        "discouraged": [
+          "carousel"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/trust-security-compliance.md"
+    },
+    {
+      "id": "data-processing",
+      "name": "Data Processing Page",
+      "family": "trust-security-compliance",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "saas",
+          "relation": "common"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "developer-tool",
+          "relation": "common"
+        },
+        {
+          "archetype": "operations-platform",
+          "relation": "common"
+        },
+        {
+          "archetype": "analytics-platform",
+          "relation": "common"
+        }
+      ],
+      "primary_function": "compliance",
+      "secondary_functions": [
+        "trust",
+        "sales-enablement"
+      ],
+      "component_recommendations": {
+        "core": [
+          "navigation-menu",
+          "trust-signals"
+        ],
+        "common": [
+          "table-of-contents",
+          "faq-section",
+          "footer"
+        ],
+        "conditional": [
+          "comparison-table",
+          "task-input",
+          "top-banner"
+        ],
+        "discouraged": [
+          "carousel"
+        ]
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/trust-security-compliance.md"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generated_from": "pages.json#component_recommendations",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "components": [
     {
       "component": "agent-workspace",
@@ -159,8 +159,10 @@
         "cart",
         "checkout",
         "community-compose",
+        "compliance",
         "create-edit",
         "dashboard",
+        "data-processing",
         "detail",
         "disclosure",
         "landing",
@@ -168,7 +170,11 @@
         "lesson",
         "listing-submission",
         "pricing",
-        "settings"
+        "privacy-center",
+        "security",
+        "settings",
+        "subprocessor-list",
+        "trust-center"
       ]
     },
     {
@@ -192,17 +198,23 @@
       "conditional": [
         "affiliate-program",
         "case-study-detail",
+        "compliance",
         "connector-detail",
         "dashboard",
+        "data-processing",
         "feature-detail",
         "feature-hub",
         "landing",
         "migration-index",
         "partner-program",
+        "privacy-center",
         "product-detail",
         "product-hub",
+        "security",
         "startup-program",
         "student-program",
+        "subprocessor-list",
+        "trust-center",
         "use-case-detail"
       ],
       "discouraged": []
@@ -298,7 +310,13 @@
         "faq"
       ],
       "common": [
-        "pricing"
+        "compliance",
+        "data-processing",
+        "pricing",
+        "privacy-center",
+        "security",
+        "subprocessor-list",
+        "trust-center"
       ],
       "conditional": [
         "affiliate-program",
@@ -354,7 +372,13 @@
         "homepage"
       ],
       "common": [
-        "legal-policy"
+        "compliance",
+        "data-processing",
+        "legal-policy",
+        "privacy-center",
+        "security",
+        "subprocessor-list",
+        "trust-center"
       ],
       "conditional": [
         "404",
@@ -600,14 +624,20 @@
         "community-home",
         "community-thread",
         "community-topic-index",
+        "compliance",
+        "data-processing",
         "docs-home",
         "feature-hub",
         "homepage",
         "learning-dashboard",
         "lesson",
         "member-profile",
+        "privacy-center",
         "product-hub",
-        "settings"
+        "security",
+        "settings",
+        "subprocessor-list",
+        "trust-center"
       ],
       "common": [
         "404",
@@ -718,13 +748,19 @@
       ],
       "common": [
         "article",
+        "compliance",
+        "data-processing",
         "disclosure",
         "glossary-term",
         "learning-dashboard",
         "legal-policy",
         "lesson",
         "media-kit",
-        "press-release"
+        "press-release",
+        "privacy-center",
+        "security",
+        "subprocessor-list",
+        "trust-center"
       ],
       "conditional": [
         "live-coverage",
@@ -814,7 +850,9 @@
         "community-home",
         "community-thread",
         "community-topic-index",
+        "compliance",
         "contest",
+        "data-processing",
         "docs-article",
         "event",
         "faq",
@@ -828,10 +866,14 @@
         "member-profile",
         "press-coverage",
         "press-hub",
+        "privacy-center",
         "product-hub",
         "promotion",
         "resource-hub",
+        "security",
         "showcase",
+        "subprocessor-list",
+        "trust-center",
         "use-case-index",
         "waitlist"
       ],
@@ -892,8 +934,10 @@
         "community-home",
         "community-thread",
         "community-topic-index",
+        "compliance",
         "create-edit",
         "dashboard",
+        "data-processing",
         "detail",
         "disclosure",
         "docs-home",
@@ -906,15 +950,26 @@
         "migration-detail",
         "news-article",
         "pricing",
+        "privacy-center",
         "roadmap",
+        "security",
         "settings",
+        "subprocessor-list",
+        "trust-center",
         "wishlist"
       ],
       "discouraged": []
     },
     {
       "component": "trust-signals",
-      "core": [],
+      "core": [
+        "compliance",
+        "data-processing",
+        "privacy-center",
+        "security",
+        "subprocessor-list",
+        "trust-center"
+      ],
       "common": [
         "about",
         "cart",

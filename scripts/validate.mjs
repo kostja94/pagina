@@ -11,6 +11,7 @@ const taxonomy = JSON.parse(await readFile(path.join(root, "catalog", "taxonomy.
 const allowedSurfaces = new Set(taxonomy.surfaces);
 const allowedArchetypes = new Set(taxonomy.product_archetypes);
 const allowedRelations = new Set(taxonomy.relations);
+const allowedFunctions = new Set(taxonomy.page_functions);
 const ids = new Set();
 
 for (const page of catalog.pages ?? []) {
@@ -29,6 +30,14 @@ for (const page of catalog.pages ?? []) {
     if (!allowedRelations.has(context.relation)) errors.push(`Unknown product relation ${context.relation}: ${page.id}`);
     if (archetypes.has(context.archetype)) errors.push(`Duplicate product archetype ${context.archetype}: ${page.id}`);
     archetypes.add(context.archetype);
+  }
+  if (!allowedFunctions.has(page.primary_function)) errors.push(`Unknown primary function ${page.primary_function}: ${page.id}`);
+  const secondaryFunctions = new Set();
+  for (const role of page.secondary_functions ?? []) {
+    if (!allowedFunctions.has(role)) errors.push(`Unknown secondary function ${role}: ${page.id}`);
+    if (role === page.primary_function) errors.push(`Primary function repeated as secondary: ${page.id}`);
+    if (secondaryFunctions.has(role)) errors.push(`Duplicate secondary function ${role}: ${page.id}`);
+    secondaryFunctions.add(role);
   }
   const recommended = new Set();
   for (const relation of taxonomy.relations) {

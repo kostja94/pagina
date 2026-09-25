@@ -1,6 +1,9 @@
 {
-  "version": "0.6.0",
-  "surfaces": ["public-web", "web-app"],
+  "version": "0.7.0",
+  "surfaces": [
+    "public-web",
+    "web-app"
+  ],
   "product_archetypes": [
     "saas",
     "ai-tool",
@@ -22,5 +25,27 @@
     "content-management",
     "operations-platform"
   ],
-  "relations": ["core", "common", "conditional", "discouraged"]
+  "relations": [
+    "core",
+    "common",
+    "conditional",
+    "discouraged"
+  ],
+  "page_functions": [
+    "brand",
+    "trust",
+    "seo-discovery",
+    "acquisition",
+    "conversion",
+    "product-education",
+    "product-operation",
+    "sales-enablement",
+    "ecosystem",
+    "support",
+    "compliance",
+    "content-distribution",
+    "community",
+    "transaction",
+    "corporate"
+  ]
 }

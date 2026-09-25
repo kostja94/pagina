@@ -139,7 +139,7 @@ skills/page-builder/
 catalog/
   pages.json                       page identities and Bricks recommendations
   component-page-map.json          generated reverse component mapping
-  taxonomy.json                    surfaces and product archetypes
+  taxonomy.json                    surfaces, product archetypes, and page functions
 schemas/page-reference.schema.json
 scripts/
 ```

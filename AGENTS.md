@@ -5,7 +5,7 @@
 - Maintain each page type in one reference under `skills/page-builder/references/pages/`.
 - Treat page variants as choices within one page reference, not as separate skills.
 - Build new pages only; existing-page audits, optimization, patches, and reconstruction are outside Pagina.
-- Keep product archetypes and surfaces in `catalog/taxonomy.json`; do not invent near-duplicate labels in page references.
+- Keep product archetypes, surfaces, and page functions in `catalog/taxonomy.json`; do not invent near-duplicate labels in page references.
 - Maintain page-to-component recommendations in `catalog/pages.json` and generate `catalog/component-page-map.json`; never edit the reverse map manually.
 - Component IDs refer to Bricks when available, but target-project components take precedence and Pagina must remain usable independently.
 - Treat Contextus as the sole owner of durable project context. Pagina reads `contextus.md` when present and must not create another context template, lifecycle model, or archive.
