@@ -4,7 +4,7 @@ Use this workflow for a new individual page. Scale the depth to page complexity 
 
 ## 1. Establish Context
 
-Inspect the active project context, route, entry paths, continuation paths, neighboring pages, audience, primary task, content source, data requirements, framework, rendering model, design system, shared layout, and existing components.
+Inspect the active project context, route and origin, entry paths, continuation paths, neighboring pages, audience, primary task, content source, data requirements, locale and market scope, framework, rendering model, design system, shared layout, and existing components.
 
 Separate page-local decisions from site-wide architecture. Escalate only when the page cannot be correct without changing global navigation, routes, or product behavior.
 
@@ -23,6 +23,8 @@ Reuse the target project's layout, navigation, controls, sections, tokens, and c
 ## 5. Implement In Place
 
 Follow project conventions for routing, data loading, metadata, localization, analytics, forms, errors, tests, and file organization. Preserve stable URLs and existing product behavior unless the request explicitly changes them.
+
+Add only the smallest page-local API, adapter, schema, content source, or submission handler needed for a truthful working page. Do not disguise a missing operational system with sample data.
 
 ## 6. Refresh Project Memory
 

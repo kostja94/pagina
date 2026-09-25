@@ -42,7 +42,7 @@ schemas/page-reference.schema.json
 scripts/validate.mjs
 ```
 
-The initial catalog covers 11 public-web and web-app page types. Additional references are added only after their ownership and overlap with existing guidance have been reviewed.
+The catalog currently covers 47 public-web and web-app page identities. Related Index, Detail, interface, and program variants may share one family reference until their guidance becomes independently substantial.
 
 `catalog/pages.json` owns page-to-Bricks recommendations. `catalog/component-page-map.json` is generated from that source and supports reverse component-to-page discovery without a second manually maintained mapping.
 

@@ -10,6 +10,9 @@
 - Component IDs refer to Bricks when available, but target-project components take precedence and Pagina must remain usable independently.
 - Maintain only the lightweight project memory contract documented in `references/project-memory.md`; do not expand Pagina into a general memory platform.
 - Update durable user-confirmed facts during page work, archive superseded values, and never store secrets or inferred claims as project facts.
+- Treat route topology, deployment ownership, locale, and market as construction context; do not infer one from another or turn page work into whole-site architecture.
+- Prefer first-party page construction. Third-party platforms are recommendations unless the user explicitly selects one.
+- Add only minimal page-local APIs or adapters and never simulate unavailable operational systems with sample data.
 - Inspect the target product, route, neighboring pages, design system, content model, and implementation conventions before building.
 - Reuse existing components and use Bricks only when component-specific guidance is needed.
 - Do not expand a page request into whole-site information architecture or silently redesign neighboring routes.

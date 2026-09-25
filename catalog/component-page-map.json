@@ -1,6 +1,6 @@
 {
   "generated_from": "pages.json#component_recommendations",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "components": [
     {
       "component": "article-layout",
@@ -15,9 +15,12 @@
       "component": "author-bio",
       "core": [],
       "common": [
+        "about",
         "article"
       ],
-      "conditional": [],
+      "conditional": [
+        "resource-detail"
+      ],
       "discouraged": []
     },
     {
@@ -35,7 +38,10 @@
         "detail"
       ],
       "common": [
-        "article"
+        "article",
+        "changelog-entry",
+        "legal-policy",
+        "resource-detail"
       ],
       "conditional": [],
       "discouraged": []
@@ -45,12 +51,22 @@
       "core": [],
       "common": [
         "blog-index",
+        "case-study-index",
+        "changelog-index",
         "collection",
+        "contact",
         "dashboard",
-        "detail"
+        "detail",
+        "integration-index",
+        "migration-index",
+        "resource-category",
+        "resource-hub",
+        "roadmap",
+        "use-case-index"
       ],
       "conditional": [
-        "404"
+        "404",
+        "status"
       ],
       "discouraged": []
     },
@@ -62,6 +78,7 @@
       "discouraged": [
         "404",
         "article",
+        "auth",
         "create-edit",
         "dashboard",
         "detail",
@@ -82,12 +99,23 @@
     {
       "component": "comparison-table",
       "core": [
+        "comparison",
         "pricing"
       ],
-      "common": [],
+      "common": [
+        "migration-detail"
+      ],
       "conditional": [
+        "affiliate-program",
+        "case-study-detail",
+        "connector-detail",
         "dashboard",
-        "landing"
+        "landing",
+        "migration-index",
+        "partner-program",
+        "startup-program",
+        "student-program",
+        "use-case-detail"
       ],
       "discouraged": []
     },
@@ -99,21 +127,71 @@
       ],
       "common": [
         "404",
-        "homepage"
+        "affiliate-program",
+        "api",
+        "browser-extension",
+        "case-study-detail",
+        "cli",
+        "comparison",
+        "connector-detail",
+        "contact",
+        "creator-program",
+        "desktop-app",
+        "gated-resource",
+        "homepage",
+        "integration-detail",
+        "mcp",
+        "migration-detail",
+        "migration-index",
+        "mobile-app",
+        "partner-program",
+        "plugin-detail",
+        "referral-program",
+        "resource-detail",
+        "startup-program",
+        "student-program",
+        "use-case-detail"
       ],
-      "conditional": [],
+      "conditional": [
+        "about",
+        "changelog-entry",
+        "faq",
+        "roadmap"
+      ],
       "discouraged": []
     },
     {
       "component": "faq-section",
-      "core": [],
+      "core": [
+        "faq"
+      ],
       "common": [
         "pricing"
       ],
       "conditional": [
+        "affiliate-program",
+        "api",
         "article",
+        "browser-extension",
+        "cli",
+        "comparison",
+        "connector-detail",
+        "creator-program",
+        "desktop-app",
+        "gated-resource",
         "homepage",
-        "landing"
+        "integration-detail",
+        "landing",
+        "mcp",
+        "migration-detail",
+        "migration-index",
+        "mobile-app",
+        "partner-program",
+        "plugin-detail",
+        "referral-program",
+        "startup-program",
+        "student-program",
+        "use-case-detail"
       ],
       "discouraged": []
     },
@@ -122,9 +200,12 @@
       "core": [
         "homepage"
       ],
-      "common": [],
+      "common": [
+        "legal-policy"
+      ],
       "conditional": [
-        "404"
+        "404",
+        "about"
       ],
       "discouraged": []
     },
@@ -135,7 +216,14 @@
       ],
       "common": [
         "blog-index",
-        "collection"
+        "case-study-index",
+        "collection",
+        "integration-index",
+        "migration-index",
+        "resource-category",
+        "resource-hub",
+        "roadmap",
+        "use-case-index"
       ],
       "conditional": [],
       "discouraged": []
@@ -146,10 +234,27 @@
         "landing"
       ],
       "common": [
-        "homepage"
+        "affiliate-program",
+        "api",
+        "browser-extension",
+        "case-study-detail",
+        "cli",
+        "creator-program",
+        "desktop-app",
+        "homepage",
+        "integration-detail",
+        "mcp",
+        "mobile-app",
+        "partner-program",
+        "plugin-detail",
+        "referral-program",
+        "startup-program",
+        "student-program",
+        "use-case-detail"
       ],
       "conditional": [],
       "discouraged": [
+        "auth",
         "collection",
         "create-edit",
         "dashboard",
@@ -158,11 +263,41 @@
       ]
     },
     {
+      "component": "howto-section",
+      "core": [],
+      "common": [
+        "affiliate-program",
+        "api",
+        "browser-extension",
+        "cli",
+        "connector-detail",
+        "creator-program",
+        "desktop-app",
+        "integration-detail",
+        "mcp",
+        "migration-detail",
+        "mobile-app",
+        "partner-program",
+        "plugin-detail",
+        "referral-program",
+        "startup-program",
+        "student-program",
+        "use-case-detail"
+      ],
+      "conditional": [],
+      "discouraged": []
+    },
+    {
       "component": "list",
       "core": [
+        "changelog-index",
         "collection"
       ],
-      "common": [],
+      "common": [
+        "resource-category",
+        "roadmap",
+        "status"
+      ],
       "conditional": [
         "dashboard",
         "detail"
@@ -174,8 +309,11 @@
       "core": [],
       "common": [],
       "conditional": [
+        "auth",
         "create-edit",
         "detail",
+        "gated-resource",
+        "roadmap",
         "settings"
       ],
       "discouraged": [
@@ -190,10 +328,17 @@
       ],
       "common": [
         "404",
-        "dashboard"
+        "case-study-index",
+        "dashboard",
+        "faq",
+        "integration-index",
+        "resource-hub",
+        "use-case-index"
       ],
       "conditional": [
-        "blog-index"
+        "blog-index",
+        "legal-policy",
+        "status"
       ],
       "discouraged": []
     },
@@ -205,7 +350,9 @@
         "article",
         "blog-index",
         "homepage",
-        "landing"
+        "landing",
+        "resource-detail",
+        "resource-hub"
       ],
       "discouraged": []
     },
@@ -219,7 +366,9 @@
         "detail",
         "settings"
       ],
-      "conditional": [],
+      "conditional": [
+        "resource-category"
+      ],
       "discouraged": []
     },
     {
@@ -227,7 +376,10 @@
       "core": [],
       "common": [],
       "conditional": [
-        "article"
+        "article",
+        "case-study-detail",
+        "changelog-entry",
+        "resource-detail"
       ],
       "discouraged": []
     },
@@ -235,7 +387,8 @@
       "component": "table-of-contents",
       "core": [],
       "common": [
-        "article"
+        "article",
+        "legal-policy"
       ],
       "conditional": [],
       "discouraged": []
@@ -249,8 +402,27 @@
         "settings"
       ],
       "conditional": [
+        "api",
+        "browser-extension",
+        "case-study-index",
+        "changelog-index",
+        "cli",
         "collection",
-        "pricing"
+        "comparison",
+        "connector-detail",
+        "contact",
+        "desktop-app",
+        "faq",
+        "integration-detail",
+        "integration-index",
+        "mcp",
+        "migration-detail",
+        "plugin-detail",
+        "pricing",
+        "resource-category",
+        "roadmap",
+        "status",
+        "use-case-index"
       ],
       "discouraged": []
     },
@@ -260,8 +432,13 @@
       "common": [],
       "conditional": [
         "404",
+        "case-study-index",
+        "faq",
         "homepage",
-        "landing"
+        "integration-index",
+        "landing",
+        "resource-hub",
+        "use-case-index"
       ],
       "discouraged": []
     },
@@ -272,8 +449,12 @@
         "landing"
       ],
       "conditional": [
+        "about",
+        "case-study-detail",
+        "creator-program",
         "homepage",
-        "pricing"
+        "pricing",
+        "use-case-detail"
       ],
       "discouraged": [
         "404",
@@ -283,14 +464,22 @@
     {
       "component": "top-banner",
       "core": [],
-      "common": [],
+      "common": [
+        "status"
+      ],
       "conditional": [
         "blog-index",
+        "changelog-entry",
+        "changelog-index",
         "collection",
         "create-edit",
         "dashboard",
         "detail",
+        "integration-detail",
+        "integration-index",
+        "migration-detail",
         "pricing",
+        "roadmap",
         "settings"
       ],
       "discouraged": []
@@ -299,11 +488,33 @@
       "component": "trust-signals",
       "core": [],
       "common": [
+        "about",
+        "case-study-detail",
+        "comparison",
+        "gated-resource",
         "homepage",
         "landing",
         "pricing"
       ],
-      "conditional": [],
+      "conditional": [
+        "affiliate-program",
+        "api",
+        "auth",
+        "browser-extension",
+        "cli",
+        "connector-detail",
+        "contact",
+        "creator-program",
+        "desktop-app",
+        "integration-detail",
+        "mcp",
+        "mobile-app",
+        "partner-program",
+        "plugin-detail",
+        "referral-program",
+        "startup-program",
+        "use-case-detail"
+      ],
       "discouraged": []
     }
   ]

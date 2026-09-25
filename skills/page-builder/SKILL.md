@@ -2,7 +2,7 @@
 name: page-builder
 description: Build a new individual page inside an existing product or application. Use for page types such as home, landing, pricing, article, dashboard, settings, and error pages when the task includes page purpose, structure, content, components, implementation, and verification. Do not use for whole-site information architecture, site-wide navigation planning, or isolated component construction.
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # Page Builder
@@ -25,7 +25,7 @@ Ask one concise question when missing information would materially change the pa
 
 ## Load Only Relevant Guidance
 
-Read [references/workflow.md](references/workflow.md) for construction and [references/quality-gates.md](references/quality-gates.md) before final verification. Read [references/project-memory.md](references/project-memory.md) when durable product facts are discovered, confirmed, replaced, or withdrawn during the task.
+Read [references/workflow.md](references/workflow.md) for construction and [references/quality-gates.md](references/quality-gates.md) before final verification. Read [references/delivery-localization.md](references/delivery-localization.md) when routes, deployments, locales, markets, or supporting data capabilities affect the page. Read [references/project-memory.md](references/project-memory.md) when durable product facts are discovered, confirmed, replaced, or withdrawn during the task.
 
 When a matching page reference exists in [../../catalog/pages.json](../../catalog/pages.json), load only that reference. If the page type is absent, use the shared workflow and do not create a permanent catalog entry unless repository maintenance is part of the task.
 
