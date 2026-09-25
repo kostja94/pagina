@@ -25,7 +25,7 @@ Ask one concise question when missing information would materially change the pa
 
 ## Load Only Relevant Guidance
 
-Read [references/workflow.md](references/workflow.md) for construction and [references/quality-gates.md](references/quality-gates.md) before final verification. Read [references/delivery-localization.md](references/delivery-localization.md) when routes, deployments, locales, markets, or supporting data capabilities affect the page. Read [references/project-memory.md](references/project-memory.md) when durable product facts are discovered, confirmed, replaced, or withdrawn during the task.
+Read [references/workflow.md](references/workflow.md) for construction and [references/quality-gates.md](references/quality-gates.md) before final verification. Read [references/delivery-localization.md](references/delivery-localization.md) when routes, deployments, locales, markets, or supporting data capabilities affect the page. Read [references/contextus.md](references/contextus.md) when consuming project context or returning durable facts discovered during the task.
 
 When a matching page reference exists in [../../catalog/pages.json](../../catalog/pages.json), load only that reference. If the page type is absent, use the shared workflow and do not create a permanent catalog entry unless repository maintenance is part of the task.
 
@@ -37,7 +37,7 @@ Use the page's product contexts to adapt priorities without inventing a new page
 2. Establish information hierarchy and content before selecting visual composition.
 3. Reuse the target project's components, tokens, layouts, icons, content models, and routing conventions.
 4. Implement real states, responsive behavior, accessibility, metadata, and failure handling.
-5. Update the project's lightweight context with durable user-confirmed facts and archive any superseded values.
+5. Return durable user-confirmed facts and agent-discovered candidates through Contextus when available; otherwise report them without creating a parallel context system.
 6. Verify the page in its actual route and product context.
 
 ## Boundaries
@@ -52,4 +52,4 @@ Use the page's product contexts to adapt priorities without inventing a new page
 
 ## Completion
 
-Report the page created, the existing conventions and components reused, the route and states verified, durable context updated, and any material dependency or product decision that remains.
+Report the page created, the existing conventions and components reused, the route and states verified, durable context updates or candidates, and any material dependency or product decision that remains.

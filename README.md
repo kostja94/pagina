@@ -94,9 +94,9 @@ It does not prescribe one hero, one section order, one framework, or one visual 
 
 ## Product Context
 
-Pagina includes a lightweight project-memory convention for durable facts discovered during page work. The agent reads one active `project-context.md`, updates user-confirmed facts, and archives superseded values instead of scattering competing context files across the repository.
+Pagina consumes project truth; it does not maintain a separate project-memory system. [Contextus](https://github.com/kostja94/contextus) is the source of truth for durable product, audience, marketing, brand, website, technical, decision, and change context.
 
-The memory layer is deliberately small. Broader research, retrieval, product planning, and knowledge management remain separate concerns.
+When root `contextus.md` exists, `page-builder` reads only the modules relevant to the page and returns newly confirmed information as Contextus updates or candidates. Without Contextus, Pagina remains fully usable: it reads available project documents or user-provided facts, asks for task-blocking information, and reports durable discoveries at completion. It does not create another context template or archive.
 
 ## The Agent Interface Stack
 
@@ -104,6 +104,7 @@ Pagina is one layer in a larger workflow:
 
 | Layer | Responsibility |
 |-------|----------------|
+| [Contextus](https://github.com/kostja94/contextus) | Durable product and project truth consumed by every downstream task |
 | [Marketing Skills](https://github.com/kostja94/marketing-skills) | Marketing, SEO, content, channel, and strategy inputs |
 | **Pagina** | The responsibility, composition, content, states, and verification of one page |
 | [Bricks](https://github.com/kostja94/bricks) | Reusable interface components and bounded interaction patterns |
@@ -133,7 +134,7 @@ skills/page-builder/
     workflow.md                    shared construction workflow
     quality-gates.md               page-level acceptance criteria
     delivery-localization.md       routes, deployments, locales, and markets
-    project-memory.md              lightweight context updates
+    contextus.md                   upstream context integration and fallback
     pages/                         maintained page-family references
 catalog/
   pages.json                       page identities and Bricks recommendations

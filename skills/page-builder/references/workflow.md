@@ -26,9 +26,11 @@ Follow project conventions for routing, data loading, metadata, localization, an
 
 Add only the smallest page-local API, adapter, schema, content source, or submission handler needed for a truthful working page. Do not disguise a missing operational system with sample data.
 
-## 6. Refresh Project Memory
+## 6. Return Durable Context
 
-Write durable facts confirmed during the task to the active project context. Archive a superseded value before replacing it and update the context date. Keep code and maintained project documents as the source of truth for detailed operational data.
+When root `contextus.md` exists, follow the Contextus integration contract to return explicit user-confirmed facts as updates and agent observations as candidates. Keep code and maintained project documents as the source of truth for detailed operational data.
+
+Without Contextus, list durable discoveries in the completion report. Do not create `project-context.md`, a Pagina archive, or another maintained memory format.
 
 ## 7. Verify In Context
 
