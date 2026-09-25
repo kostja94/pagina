@@ -42,7 +42,7 @@ schemas/page-reference.schema.json
 scripts/validate.mjs
 ```
 
-The catalog currently covers 106 public-web and web-app page identities. Related Hub, Index, Detail, interface, transaction, and program variants may share one family reference until their guidance becomes independently substantial.
+The catalog currently covers 107 public-web and web-app page identities. Related Hub, Index, Detail, interface, transaction, and program variants may share one family reference until their guidance becomes independently substantial.
 
 `catalog/pages.json` owns page-to-Bricks recommendations. `catalog/component-page-map.json` is generated from that source and supports reverse component-to-page discovery without a second manually maintained mapping.
 

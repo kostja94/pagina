@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
+  "version": "0.6.0",
   "surfaces": ["public-web", "web-app"],
   "product_archetypes": [
     "saas",

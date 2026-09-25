@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/page-reference.schema.json",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "pages": [
     {
       "id": "homepage",
@@ -4489,6 +4489,52 @@
       },
       "status": "available",
       "reference": "../skills/page-builder/references/pages/portfolio.md"
+    },
+    {
+      "id": "showcase",
+      "name": "Showcase Page",
+      "family": "showcase",
+      "surfaces": [
+        "public-web"
+      ],
+      "product_contexts": [
+        {
+          "archetype": "creator-business",
+          "relation": "common"
+        },
+        {
+          "archetype": "community",
+          "relation": "common"
+        },
+        {
+          "archetype": "saas",
+          "relation": "conditional"
+        },
+        {
+          "archetype": "ai-tool",
+          "relation": "conditional"
+        }
+      ],
+      "component_recommendations": {
+        "core": [],
+        "common": [
+          "grid",
+          "card"
+        ],
+        "conditional": [
+          "masonry",
+          "carousel",
+          "task-input",
+          "author-bio",
+          "tabs-accordion",
+          "modal",
+          "social-share",
+          "cta"
+        ],
+        "discouraged": []
+      },
+      "status": "available",
+      "reference": "../skills/page-builder/references/pages/showcase.md"
     }
   ]
 }
