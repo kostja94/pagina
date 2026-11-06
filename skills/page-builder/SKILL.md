@@ -31,6 +31,8 @@ When a matching page reference exists in [../../catalog/pages.json](../../catalo
 
 Use the page's product contexts to adapt priorities without inventing a new page identity. Component recommendations reference stable IDs in [Bricks](https://github.com/kostja94/bricks). Reuse components already present in the target project first; use Bricks guidance only when a required component must be created. Pagina remains usable when Bricks is not installed.
 
+When a shared section needs host-specific copy during construction, use [page-content-adapter](../page-content-adapter/SKILL.md) if available. Existing-page copy requests go directly to that skill.
+
 ## Build
 
 1. Define the page contract: purpose, audience, primary task, required truth, inputs, outputs, and exclusions.

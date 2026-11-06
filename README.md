@@ -14,7 +14,9 @@ It helps an agent determine what a page must accomplish, what information and st
 npx skills add kostja94/pagina --skill page-builder
 ```
 
-Then ask your agent for a real page task:
+For content-only work on shared sections across existing routes, install [page-content-adapter](skills/page-content-adapter/SKILL.md) with `npx skills add kostja94/pagina --skill page-content-adapter`.
+
+Example construction request:
 
 ```text
 Use page-builder to create the pricing page for this product.

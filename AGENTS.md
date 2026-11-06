@@ -4,7 +4,7 @@
 - Create a separate skill only when a page task develops a genuinely independent workflow, inputs, outputs, or tools.
 - Maintain each page type in one reference under `skills/page-builder/references/pages/`.
 - Treat page variants as choices within one page reference, not as separate skills.
-- Build new pages only; existing-page audits, optimization, patches, and reconstruction are outside Pagina.
+- Keep page-builder focused on new pages. Use page-content-adapter for host-specific copy within existing component contracts. General existing-page optimization and reconstruction remain outside Pagina.
 - Keep product archetypes, surfaces, and page functions in `catalog/taxonomy.json`; do not invent near-duplicate labels in page references.
 - Maintain page-to-component recommendations in `catalog/pages.json` and generate `catalog/component-page-map.json`; never edit the reverse map manually.
 - Component IDs refer to Bricks when available, but target-project components take precedence and Pagina must remain usable independently.

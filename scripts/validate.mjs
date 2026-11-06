@@ -66,8 +66,8 @@ try {
 }
 
 const skillRoot = path.join(root, "skills");
-for (const entry of await readdir(skillRoot, { withFileTypes: true })) {
-  if (!entry.isDirectory()) continue;
+const skillDirectories = (await readdir(skillRoot, { withFileTypes: true })).filter((entry) => entry.isDirectory());
+for (const entry of skillDirectories) {
   const skillPath = path.join(skillRoot, entry.name, "SKILL.md");
   let source;
   try {
@@ -86,4 +86,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`Validated ${catalog.pages.length} page references and 1 skill.`);
+console.log(`Validated ${catalog.pages.length} page references and ${skillDirectories.length} skills.`);
