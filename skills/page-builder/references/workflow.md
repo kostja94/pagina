@@ -28,7 +28,7 @@ Add only the smallest page-local API, adapter, schema, content source, or submis
 
 ## 6. Return Durable Context
 
-When root `contextus.md` exists, follow the Contextus integration contract to return explicit user-confirmed facts as updates and agent observations as candidates. Keep code and maintained project documents as the source of truth for detailed operational data.
+When root `{project}.md` exists, follow the Contextus integration contract to return explicit user-confirmed facts as updates and agent observations as candidates. Keep code and maintained project documents as the source of truth for detailed operational data.
 
 Without Contextus, list durable discoveries in the completion report. Do not create `project-context.md`, a Pagina archive, or another maintained memory format.
 

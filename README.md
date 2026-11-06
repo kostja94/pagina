@@ -99,7 +99,7 @@ It does not prescribe one hero, one section order, one framework, or one visual 
 
 Pagina consumes project truth; it does not maintain a separate project-memory system. [Contextus](https://github.com/kostja94/contextus) is the source of truth for durable product, audience, marketing, brand, website, technical, decision, and change context.
 
-When root `contextus.md` exists, `page-builder` reads only the modules relevant to the page and returns newly confirmed information as Contextus updates or candidates. Without Contextus, Pagina remains fully usable: it reads available project documents or user-provided facts, asks for task-blocking information, and reports durable discoveries at completion. It does not create another context template or archive.
+When root `{project}.md` exists, `page-builder` reads only the modules relevant to the page and returns newly confirmed information as Contextus updates or candidates. Without Contextus, Pagina remains fully usable: it reads available project documents or user-provided facts, asks for task-blocking information, and reports durable discoveries at completion. It does not create another context template or archive.
 
 ## The Agent Interface Stack
 
@@ -137,7 +137,7 @@ skills/page-builder/
     workflow.md                    shared construction workflow
     quality-gates.md               page-level acceptance criteria
     delivery-localization.md       routes, deployments, locales, and markets
-    contextus.md                   upstream context integration and fallback
+    project-context-integration.md upstream context integration and fallback
     pages/                         maintained page-family references
 catalog/
   pages.json                       page identities and Bricks recommendations

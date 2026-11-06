@@ -25,7 +25,7 @@ Ask one concise question when missing information would materially change the pa
 
 ## Load Only Relevant Guidance
 
-Read [references/workflow.md](references/workflow.md) for construction and [references/quality-gates.md](references/quality-gates.md) before final verification. Read [references/delivery-localization.md](references/delivery-localization.md) when routes, deployments, locales, markets, or supporting data capabilities affect the page. Read [references/contextus.md](references/contextus.md) when consuming project context or returning durable facts discovered during the task.
+Read [references/workflow.md](references/workflow.md) for construction and [references/quality-gates.md](references/quality-gates.md) before final verification. Read [references/delivery-localization.md](references/delivery-localization.md) when routes, deployments, locales, markets, or supporting data capabilities affect the page. Read [references/project-context-integration.md](references/project-context-integration.md) when consuming project context or returning durable facts discovered during the task.
 
 When a matching page reference exists in [../../catalog/pages.json](../../catalog/pages.json), load only that reference. If the page type is absent, use the shared workflow and do not create a permanent catalog entry unless repository maintenance is part of the task.
 

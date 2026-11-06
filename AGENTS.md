@@ -8,7 +8,7 @@
 - Keep product archetypes, surfaces, and page functions in `catalog/taxonomy.json`; do not invent near-duplicate labels in page references.
 - Maintain page-to-component recommendations in `catalog/pages.json` and generate `catalog/component-page-map.json`; never edit the reverse map manually.
 - Component IDs refer to Bricks when available, but target-project components take precedence and Pagina must remain usable independently.
-- Treat Contextus as the sole owner of durable project context. Pagina reads `contextus.md` when present and must not create another context template, lifecycle model, or archive.
+- Treat Contextus as the sole owner of durable project context. Pagina reads `{project}.md` when present and must not create another context template, lifecycle model, or archive.
 - Keep Pagina usable without Contextus: read available project material, ask for missing facts, and report durable discoveries without establishing a parallel memory system.
 - Treat route topology, deployment ownership, locale, and market as construction context; do not infer one from another or turn page work into whole-site architecture.
 - Prefer first-party page construction. Third-party platforms are recommendations unless the user explicitly selects one.
